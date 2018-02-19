@@ -1,2 +1,2 @@
 # VuelveXNavidad
-Valkyrie MOM Scenario : oming Home from Christmas (Spanish)
+Valkyrie MOM Scenario : Coming Home from Christmas (Spanish)
