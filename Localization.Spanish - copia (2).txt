@@ -1,0 +1,431 @@
+.,Spanish
+quest.name,Vuelve por Navidad
+quest.authors,Krakalun RedVelvet	
+quest.description,Llega la Navidad y este año toca en casa del tio Jeremiah Blackwood. Pero algo te hace sospechar que la sorpresa no es Papa Noel
+EventAdInvestigadors.text,Estais completamente a oscuras, no veis absolutamente nada. Agudizais los sentidos.\n La casa huele musgo y a madera apolillada... escuchais pequeños ruidos en el interior de la casa, muy suaves.\n Encendeis vuestra lampara?
+EventAdHall.button1,Continuar
+UIInici.button1,Continuar
+EventInici.text,Sir Jeremiah Blackwood es el tio de {rnd:hero} \nA principios de año le invitó, con mucha insistencia, \n a pasar la Navidad en su casa.\n"- La familia ha de estar junta en estas fechas" \nPero hace semanas que no responde a las cartas. \n{rnd:hero} decide ir con sus compañeros a ver que ha podido ocurrir. \nEl viaje es largo y se aleja de la civilización\nSobre los acantilados de Kingsport, la solitaria casa  parece anclada en el siglo pasado, aunque asentada sobre paredes de piedra mucho mas antiguas\n Està bordeada por un jardín del que hace tiempo que nadie se ocupa.\nLlamais a la herrumbrosa puerta. Solo contesta el silencio \n{rnd:hero} recuerda que guarda la llave maestra de la familia.\n\nAbre la puerta y entrais\nVuestros indecisos pasos resuenan en el vacio
+EventInici.button1,Continuar
+EventAdHall.text,La luz parpadea un momento e ilumina la sala.\nVeis dos puertas y un pasillo que se adentra en la casa.\na la izquierda llena la pared un cuadro imponente. \nAñadir las dos fichas de Muro en los espacios indicados.\nUna ficha de Vista en el pasillo.
+EventAdInvestigadors.button1,Encender
+EventAdExplorers_Hall.text,\nPon fichas de Exploración en las dos puertas. \nI una ficha de Búsqueda en el cuadro.
+EventAdExplorers_Hall.button1,Continuar
+TokenHallExplRoom.text,Al poner la oreja en la puerta no se oye asolutamente nada, nada de nada.\n Quieres entrar {action} ?
+EventAdRoom.text,Pon el módulo {c:TileRoom}\n\nDelante ves una mesita de noche y en el fondo hay una cama deshecha.\n Pon fichas de Busqueda en ambos\nAñade una ficha de Pared donde indica\nElimina ficha de Exploración\n\nPuedes moverte un espacio entrando a la habitación
+EventAdRoom.button1,Continuar
+TokenRoomLlit.button1,Mirar {action}
+EventActRoomLlit.button1,Continuar
+TokenRoomLlit.text,La cama esta sin hacer. Las sábanas estan muy sucias y la alfombra tiene restos de lo que parece barro seco.\nTe parece que algo ha resbalado de debajo del cojin arrastrando la ropa por detras \n Quieres mirar? {action}
+EventRoomLlitGetArma.text,Has encontrado el objeto  {c:QItemArmaFoc}\nRetira ficha de Búsqueda
+TokenBiblioQuadre.button1,Estudiarlo {action} ?
+EventBiblioQuadreMirar.text,{observation}La geometria no es euclidiana y la perspectiva se deforma cuando la observas de cerca. Haz una Tirada de {observation}
+EventBiblioQuadreMirar.button1,Continuar
+EventBiblioQuadreFerPuzzle.text,Ves claramente que hay un mecanismo relacionado con los fragmentos en que se divide la imagen. Retira la ficha de Observació y pon una de Interacción
+TokenBiblioQuadreSecret.button1,Ordenar piezas {action} ?
+PuzzleBiblioQuadre.button1,Resolver
+EventHallQuadreResolt.text,Se oye un ruido de engranajes y un agujero en la pared te da acceso a un extraño objeto: \nUna daga curvada, extraña y brillante\nLa hoja es muy delgada \nLa empuñadura está profusamente decorada con simbolos y figuras geométricas, con piedras preciosas. \nDestaca un triangulo con brillantes en los tres vertices
+EventHallQuadreResolt.button1,Continuar
+EventBiblioQuadreFerPuzzle.button1,Continuar
+TokenBiblioQuadreSecret.text,Encuentras unos mecanismos que permitan mover partes del cuadro. Quieres intentar ordenarlas con {lore} ? 
+TokenHallExploDespatx.button1,Entrar {action}
+EventHallAdDespatx.text,Pon el módulo {c:TileDespatx} \nEs una sala muy personal, un espacio cálido donde flota el polvo, presidida por una mesa de trabajo.\nTe desconcierta que aquí dentro ya no se oye ningún ruido\nCaptas un olor muy característico que no puedes reconocer\nRetira la ficha de Exploración
+Es una sala muy personal, un espacio cálido donde flota el polvo, presidida por una mesa de trabajo.\nTe desconcierta que aquí dentro ya no se oye ningún ruido \nCaptas un olor muy característico que no puedes reconocer\n\n\nI retira la ficha de Exploración
+TokenRoomMesita.text,La  pequeña mesita tiene un cajón\nQuieres inspeccionarla  {action}?
+TokenRoomMesita.button1,Inspeccionar {action}
+EventRoomInvestigaTauleta.text,Al abrir el cajón ves ropa de hombre anticuada. Ropa interior y nada interesante a primera vista.\nSi quieres escudriñar a fondo ({observation},2)
+EventRoomInvestigaTauleta.button1,Superado
+EventRoomInvestigaTauleta.button2,Fallo
+EventRoomTauletaTrobat.text,Remueves la ropa con cautela, Pasas las manos por los laterales del cajón. Por el fondo... \nEncuentras un pequeño resorte.    clanKlack! \nSe abre un cajón lateral que hasta ahora era invisible.\nEncuentras el objeto {c:QItemLlavePlata} \nGanas una pista {clue}\n\nElimina ficha de Exploración\n
+EventRoomTauletaTrobat.button1,Recojer Objeto
+EventRoomMesitaFail.button1,Continuar
+SpawnFantasmaDespatx.text,Ahora si puedes concretar de donde venian los ruidos. \nEn el despacho, hay un hombre sentado detrás de la mesa Su cara no es una cara \nMuta de ser un home de mediana edad, con el pelo blanco, y mirada digna, a transformarse en una massa sangrienta y viscosa con pocos ecos humanos.\nEn tu mente queda grabada la gran letra "J" bordada en el bolsillo de su bata raida y empapada de rojo brillante\nPon una miniatura de  {c:SpawnFantasmaDespatx}  en el lugari ndicado.
+SpawnFantasmaDespatx.button1,Continuar
+TokenHallExploDespatx.text,Al acercarte a la puerta escuchas un rumor al otro lado\nSon sonidos familiares como de alguien moviendo papeles, escribiendo, cerrando cajones... 
+EventHallFosc.button1,Continuar
+EventHallFosc3.text,Algo se mueve a vuestro alrededor dejado un rastro pestilente terrible y una atmósfera eléctrica irrespirable\nTOD@S los investigadores de repente notais pinchazos en diferentes partes del cuerpo. \nRecibís {var:Danyo}  cartas de Daño boca arriba disminuides por {agility}. \nI el investigador {rnd:hero} queda Aturdido \nVuelve el silencio\nUn investigador recoge el Objeto {c:QItemLinterna}
+EventHallFosc2.text,Vuestros cuerpos tiemblan sin control, todos los objetos que teneis caen al suelo.\nTod@s recibís {var:Horror} cartas de Horror boca abajo, anuladas por {will}.
+EventHallFosc2.button1,Continuar
+EventHallFosc3.button1,Continuar
+EventAdInvestigadors.button2,Seguir a oscuras
+EventHallFosc.text,Estais dentro de una oscuridad impenetrable\nPalpais con las manos, esforzais los ojos y afinais el oido\n Percibís claramente pequeños roces per todas partes pero no veis nada. \nLos ruidos por todas partes se acercan cada vez más rápidos, más cerca\nOs invade una sensación de humedad en toda la piel y os infecta un fuerte olor putrefacto y vomitivo
+TokenHall_Vista.text,Un investigador en el {c:TileHall} puede activar la vista del resto del pasillo
+TokenHall_Vista.button1,Vista
+EventHallVistaAd.text,Delante de ti se abre un pasillo que gira a la derecha \nSitua el modulo {c:TilePasilloComedor}\nMueve ficha de Vista al nuevo final del pasillo \nAñade una de Exploración en la puerta y una de Observación en el mueblecito\n\nRetira token Vista
+EventHallVistaAd.button1,Continuar
+EventHall_Llum.text,La luz de la pequeña linterna tilila y os permite reconocer una pequeña estancia.\n Adivinais puertas y muebles. El suelo parece de cerámica ajedrezada\n En un rincón veis una  caja de interruptores. 
+EventHall_Llum.button1,Continuar
+TokenHallCaixa.text,Una caja de conexiones con un mecanismo muy rústico.\n La puedes poner en funcionamento con  {lore}
+TokenHallCaixa.button1,Activar mecanismo
+PuzzleHallCaixaLlum.button1,Activar
+TokenPasilloExplMenjador.text,Una vieja puerta de mucho uso, despintada y gastada
+TokenPasilloExplMenjador.button1,Explorar {action}
+TokenPasilloVista.text,Cualquier jugador desde {c:TilePasilloComedor} puede activar la vista
+TokenPasilloVista.button1,Ver
+EventFAIL.button1,Continuar
+UIFAIL.button1,Continuar
+UIFAILTEXT.uitext,Un sonido atronador os golpea \nen la cara y el pecho\nSufrís frio y calor y mucho dolor.\nNo sabeis que ha pasado pero despertais \nen una camilla del Hospital de Arkham \natados con camisa de fuerza y con dolores terribles\nCompletamente locos TOD@S\n\n¡¡HABEIS FRACASADO !!\nY algo terrible va a pasar en esta ciudad, en este Mundo
+TokenDespatxExploPorta.text,Esta puerta está cerrada con llave. La cerradura es plateada
+TokenDespatxExploPorta.button1,Continuar {action}
+EventDespatxPortaTeclau.text,Si eres el investigador que tiene la Llave Plateada puedes abrir y entrar
+EventDespatxPortaTeclau.button1,Tengo la Llave Plateada
+EventDespatxAdBiblioteca.button1,Continuar
+EventDespatxAdBiblioteca.text,La puerta se abre con un crujido desagradable\nVes una habitacion sin salida. Las paredes estan llenas de estanterias colmadas de libros.\n Hay pergaminos, libros viejos, volumenes forrados de piel, y colecciones con títulos en lenguas perdidas en el tiempo, y simbolos sacados de los sueños mas aberrantes.\n Huele a humedad y a papel podrido.\nY por encima de todo una esencia ácida y picante difícil de respirar.\n\nPon la ficha de Pared\nRetira la ficha de Exploración
+EventDespatxPortaSenseClau.button1,Forzarla  
+EventDespatxPortaForzar.button1,Superado
+EventDespatxPortaSenseClau.text,No tienes la Llave. Es una puerta fuerte y bien asegurada\nQuieres provar a forzarla ?
+EventDespatxPortaForzar.button2,Fallo
+EventDespatxPortaForzaFail.text,Uno de los fragmentos sale disparado, rebota y te golpea en la cabeza.\nRecibes una carta de Daño boca abajo
+EventDespatxPortaForzaFail.button1,Continuar
+TokenBiblioCadira.text,Sobre la silla hay un libro abierto. \nquieres echarle un ojo {action}?
+TokenBiblioCadira.button1,Mirar libro {action}
+EventBiblioCadiraUllada.text,Es un libro atávico, les hojas son de un material raro. Las guardas no dudas que son de piel con incrustacions metáliques com si hubiera podido cerrar con llave.\nEstá escrito con caracteres que no sabes decifrar\nPero creus que te puede ser útil. Parece un imposible libro de Hechizos.\nObtienes {c:QItemHechizoAjar}\n\nRetira ficha de Búsqueda
+EventBiblioCadiraUllada.button1,Continuar
+EventHallAdDespatx.button1,Continuar
+EventDespatxPortaTeclau.button2,Cancelar
+EventPasilloAdMenjador.text,Ves una sala con una gran mesa \nPon ficha de Muro en el fondo\nAñade Explorar en la puerta abatible de la derecha\nAñade Observacion sobre la mesa y en el mueble del fondo\n \nRetira ficha Exploración
+EventPasilloAdMenjador.button1,Continuar
+TokenComedorTaula.button1,Examinar {Action}
+EventCuinaArconNODaga.text,Presionas el triangulo con tus dedos y se hunde\nIntentas con algún objeto pero no es adecuado
+TokenComedorCalaix.text,Cajonera con objetos sobre ella\n
+TokenComedorCalaix.button1,Continuar
+TokenComedorExplPortaCuina.button1,Continuar
+EventCuinaExplo.text,La cocina está muy abandonada. Hace dias que nadie la usa. Hay platos y utensilios sucios. Un cajón está abierto.\nHay mas suciedad en el suelo\nRetira ficha Exploración
+TokenComedorExplPortaCuina.text,Puerta abatible con mucho uso. Rayaduras. Golpes. Suciedad. El suelo tambien tiene rayaduras y suciedad
+EventActRoomLlit.text,Buscas a tientas por la estrecha separación entre la cama y la pared. Es muy angosto. A ciegas tocas superficies de madera, sabanas arrugadas y pringosas, el polvo pegajoso acumulado en el suelo...\n Y algo metálico, como un tubo, lo coges y pruebas a sacar tu brazo enacajado. \nRecibes 1 carta de Daño anulada por {agility} 
+TokenHallExplRoom.button1,Entrar {action}
+EventAdInvestigadors.button3,SALTAR
+EventDagaTrobada.button1,Pasas Tirada
+EventDagaTrobada.button2,Fallas
+EventDagaPasa.text,Sientes el poder y te das cuenta de su fuerza y de que no eres capaz de canalizarla ahora mismo.\nTu mano se aferra al mango y tu mirada busca donde o en quien clavar el filo.\nCon tu otra mano te ayudas a soltarla y a tranquilizarte. Poco a poco. Poco a poco. Dejas la daga en el suelo. Tu cuerpo se afloja, tu mente se aclara. Entiendes aunque no recuerdas. Coges el objeto màgico por la hoja y te das cuenta que tiene una forma peculiar. \nUnos canales la surcan de la punta a la empuñadura\nTe interrumpen unos ruidos al otro lado de la puerta...\n
+EventDagaPasa.button1,Continuar
+EventDagaFallo.text,Tu cuerpo se crispa y se tensa. Tu mirada busca donde o en quien clavarse. El objeto adquiere un resplandor verdoso repugnante y necesitas cortar carne. Aún no puedes dominarla, ella te domina a ti.\nHasta que no vierta sangre no podrás salir del hechizo.\nUn investigador al alcance o tu mismo recibiis dos cartas de Daño boca abajo para poder seguir.\nUna vez corre la sangre guardas la daga y todo vuelve a la "normalidad"\nRecibe un carta de Horror boca abajo\n\nVes que la hoja tiene algo extraño pero no aciertas que \n\nTe interrumpen unos ruidos al otro lado de la puerta...\n\n \n 
+EventDagaFallo.button1,Continuar
+EventRoomMesitaFail.text,Rebuscas pero no te puedes concentrar. Algo te despista
+EventCuinaExplo.button1,Continuar
+TokenCuinaTerra.button1,Continuar
+TokenCuinaCalaix.text,Un cajon esta abierto
+EventCuinaTerra.text,Te fijas mejor en el suelo. Ves suciedad y te sorprende que algunas manchas son de barro, Ves huellas de zapatos y de... pies desnudos. Y una rayadura larga que va de una puerta a la otra junto a un reguero oscuro.\nObtienes  {QItemPruebaCuina} \n\nRetira Búsqueda
+EventCuinaTerra.button1,Continuar
+TokenCuinaTerra.text,El suelo esta sucio ... \nTirada de ( {observation}+1, 3)
+TokenCuinaCalaix.button1,Explorar {action}
+EventCuinaCalaix.text,El cajón esta revuelto pero ves claramente que faltan cubiertos. Los espacios de varios cuchillos estan vacios.\nEncuentras {c:QItemArmaFilo}\nGanas una Pista {clue}\nRetira la ficha de Búsqueda
+EventCuinaCalaix.button1,Continuar
+EventDespatxAdExpl.text,Las paredes estan llenas de recuerdos truculentos, armas ancestrales, grabados de paisajes tropicales, grandes mapas de islas desconocidas, máscaras terroríficas y trofeos de caza\n Añade un ficha de Búsqueda\nSobre la mesa hay papeles. Pon ficha de Busqueda.\n\nPuedes moverte un espacio \n
+EventDespatxAdExpl.button1,Continuar
+TokenDespatxTaula.text,Ves un montón de papeles sobre la mesa, algun tipo de ancestral manual en una tipografía quimérica, y papeles con apuntes manuscritos. \nEl tintero se ha volcado y mancha la mayor parte de los documentos\nEste era el olor que notabas, tinta! \nPara intentar salvar los escritos tira {agility}
+TokenDespatxTaula.button1,Continuar
+EventDespatxTaulaPassat.text,Saltas como un leopardo sobre la mesa y consigues levantar algunos de los elementos. Recoges la tinta con un papel. Se pierden la mayoria de documentos pero consigues rescatar el último. Un pequeño diario garabateado\n Recoges el objeto único {c:QItemDiario} que puedes consultar en tu Inventario\n\nRetira la ficha de Búsqueda
+EventDespatxTaulaPassat.button1,Continuar
+UIDiarioText1.uitext,La letra es confusa y con la mayoria de pàginas en idiomas y grafias desconocidos. \nLo hojeas y intentas leer fragmentos. \nPero algo te impide recordar todo, te nubla la visión y te deja la mandibula rígida. \nHay paginas arrancadas \nSolo recuerdas algunas frases:\n\n" ... mas importante es la Familia.\n Por ellos lo estoy haciendo. \nTodos juntos, reunidos por fin ..."\n\n"...orrido los siete mares ...\n".. abiduria y conocimientos arcanos para pod..."\n"...maldito Jerry, le dije que no abriera ningu..." \n
+UIDiarioText2.uitext,...ha sido fácil, espero que no afecXe a Xl..."\n"...proveerme ayuda, ellos si Xs..."\n(hojas arrancadas)\n" ... sospechas caso como Xraba ..."\n"mira que le advertí"  " ... pXrarlo..."\n"...la he guardado en el cajXn seXreto..."\n(paginas arrancadas)\n" es tan poderosa XX\nElla sabra tratarlos,  este diarioX me Xyuda,  ... "\n"...consecuenciaX..."\n"...destruir.. ...Nunca!  ...todos ... ..."\n\n\n                                                        [Continuar]
+UIDiarioText1.button1,Seguir
+UIDiarioText2.button1,Botón1
+EventMithosRound2.text,Fsssshsssshssss
+EventMithosRound2.button1,Continuar
+EventRoomLlitGetArma.button1,Continuar
+TokenCocinaExplRebost.text,La puerta de la despensa tambien esta sucia y rallada\nSi estas en su espacio no necesitas acción para abrirla
+EventDespatxPortaForzar.text,Coges algún objeto de encima de la mesa y golpeas el cierre de la llave violentamente. ({strength},4). \nEl objeto se rompe y te hiere con 1 carta de Daño.\nLo  has conseguido?
+EventDespatxPortaSenseClau.button2,Dejarlo, de momento
+EventDespatxPortaForzarFail2.text,Al romperse el objeto te desequilibras y caes de bruces contra la puerta. \nQuedas en estado Aturdido\nI se te cae un Objecto de las manos
+EventDespatxPortaForzarFail2.button1,Continuar
+EventDespatxPortaForzaFail3.text,Salta un fragmento del objeto y cae bajo la mesa. \nAl ir a recogerlo encuentras el objeto común  {c:QItemPitillera}
+EventDespatxPortaForzaFail3.button1,Continuar
+EventBiblioAdfichas.text,Hay estanterias hasta el techo llenas de cosas interesantes, extrañas o espeluznantes\nAñade las fichas de Búsqueda \n
+EventBiblioAdfichas.button1,Continuar
+TokenBiblioQuadre.text,Ves un cuadro muy antiguo. Se adivina una tipo de diagrama \nHayimagenes que se desenfocan al mirarlas que te hacen pensar que esconde algo. Quieres Observarlo mejor {action}?
+EventPasilloAdEsquina.text,El pasillo sigue adelante haciendo esquina.\nAñade el módulo {c:TileEsquinaWC} \n \n
+EventPasilloAdEsquina.button1,Continuar
+EventEsquinaAdObs.text,Parece que el pasillo sigue \nMueve ficha de Vista a la nueva ubicacion.\nEn la pared izquierda aparece ominoso un gran mueble de madera cruda. \nFrente a la dos puertas hay una gran alfombra \nColoca fichas de Búsqueda en ambos lugares\nAl fondo a la dercha una puerta con un pequeño cartel de porcelana en el que lees WC\nAñade ficha de exploración en la puerta.
+EventEsquinaAdObs.button1,Continuar
+TokenEsquinaEspejo.text,Un extraño mueble de madera vieja con un curioso espejo\nQuieres observarlo con atención?
+TokenEsquinaEspejo.button1,Investigarlo {action}
+EventEsquinaEspejoLook.text,Te sorprende la curiosa construccion de este mueble, sin molduras ni adornos. Simple, incluso vulgar, pero que ejerce en ti el efecto seductor de lo arcano.\nUn gran espejo descansa sobre el, es aún más viejo y raro. Refleja las sombras y las deforma por las paredes como si tuvieran vida propia. Al tocar su superficie sientes el calor de su madera al sol tropical secandose con los aromas de canela y clavo. Es fascinante su tacto cálido y suave. Abres los cajones y te inunda una nostalgia infantil. Encuentras algo dentro pero no quieres sacarlo de ese recipiente amable y sugestivo.\nHaz una Tirada de   {will}
+EventEsquinaEspejoLook.button1,{success} {success} {success} o mas
+TokenEsquinaCatifa.text,Una gran alfombra cubre el suelo. Ves una arruga\nQuieres Investigar?
+TokenEsquinaCatifa.button1,Investigar  {action}
+EventEsquinaCatifa.text,La alfombra es siniestramente hermosa, tiene dibujos etnicos. Algunos parecen representar danzas festivas o banquetes muy esquematicos y burdos. Saltan alrededor del fuego todos juntos, parece que rien y beben de grandes tazones chorreantes. Otros miran con grandes ojos fijos y negros.\n En la parte mas cercana a la puerta del fondo la alfombra se arruga apelmazada. como si alguna substancia oscura y viscosa la hubiera empapado y se hubiera arrastrado algo pesado por encima. El rastro viene del final del pasillo.\nRecibes la prueba {c:QItemPruebaAlfombra}\nRetira indicador Búsqueda
+EventEsquinaCatifa.button1,Continuar
+EventEsquinaEspejo3aciertos.button1,Continuar
+EventEsquinaEspejoForat.text,Te ves entre claroscuros reflejado en el espejo. \nTe miras a los ojos y notas algo extraño en tu boca\nNo es tu boca es un agujero, Un pequeño orificio\nTe asustas pero ...\nNo es tu reflejo es en el propio espejo. Mueves la cabeza y efectivamente la insignificante hendidura permanece.\nTe acercas a observarla\nTiene una curiosa forma. Como una cruz griega
+TokenEsquinaVista.text,Cualquier investigador en el pasillo de Esquina puede retirar este token y descubrir la vista
+TokenEsquinaVista.button1,Continuar {action}
+EventEsquinaEspejoVisto.text,El espejo sigue atrayendote como la corriente de un rio hacia una cascada...
+EventEsquinaEspejoVisto.button1,Continuar
+EventEsquinaEspejoLook.button2,{success} {success}
+EventEsquinaEspejoLook.button3,{success}
+EventEsquinaEspejoLook.button4,Ningun {success}
+EventEsquinaEspejo3aciertos.text,Cierras los ojos con furia\nTu fuerza de voluntad no se deja doblegar\nAgarras fuerte el objeto y lo sacas del cajon\nUnas siluetas desparecen por los angulos del espejo\nTienes en la mano  {c:QItemObjetoAleatorio}
+EventEsquinaEspejoForat.button1,Continuar
+EventEsquinaEspejoAgujeroSICruz.text,Se parece mucho a la forma que reconociste en la punta de la daga al insertarse la pieza dorada del arcón\nSi eres el investigador que lleva la Daga con el Indicador puedes continuar.
+EventEsquinaEspejoAgujeroNODaga.text,Ese orificio es muy sospechoso\nTe preguntas si tendrà alguna utilidad. \nO necesitarà de algun elemento para usarlo
+EventEsquinaEspejoTengoDaga.text,Sacas la daga que ahora brilla obscenamente\nPruebas a introducirla en la diminuta grieta. Encaja perfectamente. Empujas y escuchas un sonido metálico
+EventEsquinaEspejoTengoDaga.button1,Continuar
+EventEsquinaEspejoTengoDagaClack.text,Sonidos metálicos, engranajes que arrastran maderas, goznes oxidados. Algo que se abre al otro lado de la pared\n- ¿Que hay al otro lado? te preguntas\n
+EventEsquinaEspejoTengoDagaClack.button1,Continuar
+EventEsquinaEspejoFIN.button1,Continuar
+TokenAlmacenAcccion.text,Varios objetos y enseres han caido al suelo
+TokenAlmacenAcccion.button1,Investigar {action}
+EventAlmacenAdPasadizo.text,Observas la comida caida de la estanteria y ves que algo se ha movido y los ha hecho caer. Al apoyarte en el barril de harina este rueda y toda la pared se desliza suavemente ...\n \nQuita ficha de Acción
+EventAlmacenAdPasadizo.button1,Continuar
+EventAlmacenPasadizo.text,Descubres una trampilla que se abre a una zona oscura\nPon un ficha de Pasadizo en el lugar indicado\n\nSitua el módulo  [c:TileSotan}\n\nTres fichas de oscuridad en sus espacios\nY uno de Exploración en la puerta \nPuedes avanzar un espacio
+EventAlmacenPasadizo.button1,Continuar
+EventEsquinaEspejoNoCruzSiDaga.text,Piensas en la Daga pero la forma de la punta no coincide\nQuieres probar igualmente?
+EventEsquinaEspejoAgujeroNODaga.button1,Continuar
+TokenHallCuadro.text,Una pintura antigua...
+TokenHallCuadro.button1,Continuar {action}
+UIHallQuadro.button1,Dejar de mirarlo
+UIHallQuadro.text,Una antigua pintura representa un ritual escalofriante que tu razón no sabe concretar, anque tu cuerpo se debate entre no dejar de mirarlo o prenderle fuego.\nPuedes retirar el ficha de Búsqueda
+TokenCuinaArca.text,Hay un Arcón de viaje cerrado
+TokenCuinaArca.button1,Abrirlo  {action}
+EventCuinaArcon.text,Es un arcón de metal y madera negra\nCerrado y sin cerradura\nEn el frontal de hierro forjado hay elaborados grabados\nDibujos geométricos y piedras preciosas que forman simbolos de tradiciones perdidas\nMientras los observas te pican los ojos y se te seca la garganta,  y una niebla espesa empiexa a llenar tu mente \nHaz una tirada de  ( {will},2 )
+EventCuinaArcon.button1,Superas la tirada
+EventCuinaArcon.button2,Fallo
+EventCuinaArcaFallo.text,Se te cierran los ojos y tienes visiones de playas hermosas.\n A tu alrededor bailan mujeres y hombres alrededor de una forma.\nUna sacerdotisa cubierta de barro y sangre danza y grita sonidos obscenos e irreconocbles\n "Fnagh, fnagh, fnagh ftumeh!"\nDe repente el cuerpo del suelo se mueve y te mira con sus ojos secos, te hundes en sus ojos...\nRecibes una carta de Horror boca arriba\nY quedas Desconcertado
+EventCuinaArcaFallo.button1,Continuar
+EventCuinaArconFallo2.text,Estudias los simbolos del arcón. Con mas cautela\nIntentas no dejarte llevar por la fantasia.\nHueles el humo, sientes los tambores.\nDas un respingo y te apartas de su hechizo\nRecibes una carta de Horror boca abajo
+EventCuinaArconFallo2.button1,Continuar
+EventCuinaArconSuperat.button1,Continuar
+EventCuinaArconTeDaga.text,El dibujo se parece mucho a la Daga Ritual que encontrasteis. \nEres el investigador que tiene la daga?
+EventCuinaArconTeDaga.button1,Tengo yo la daga
+EventCuinaArconTeDaga.button2,No 
+EventCuinaArconTENGOlaDaga.button1,Continuar
+EventCuinaArconCruz.button1,Continuar
+EventEsquinaEspejoAgujeroSICruz.button1,Tengo la daga
+EventCuinaArconCruz.text,... suena otro chasquido metàlico\nLa mano que sujeta la Daga vibra y esta sale de su prisión\nPero algo ha cambiado\nUna pieza dorada se ha incrustado en la hoja y le da un nuevo perfil. \nMirandola desde la punta tiene forma de cruz, de cruz griega.\nPon un ficha de Interacción en tu Objeto Daga \nAhora Este indicador con la Daga funciona como un solo objeto\n\nRetira ficha de Búsqueda\n
+EventEsquinaEspejoNoCruzSiDaga.button1,Probar 
+EventEsquinaEspejoNoCruzSiDaga.button2,Dejarlo de momento
+EventEsquinaEspejoPrueboconDaga.text,Ves que no coincide pero lo intentas. \nLa punta entra facilmente pero no va mas allá\nPresionas un poco y remueves intentando encontrar mecanismos o engranajes y una fuerte descarga te lanza contra la pared.\nSufres 4 de Daño eliminados por {strength}\nAdquieres estado Aturdido
+EventEsquinaEspejoPrueboconDaga.button1,Continuar
+TokenCocinaExplRebost.button1,Abrir
+EventCuinaAdRebost.text,El pomo de la puerta esta sucio y pegajoso\nNo quieres saber de que\nA la izquierda una estanteria llena de productos sorprendentemente bien ordenados, paquetes de comida, sacos de arroz, barriles.\nEn frente un enorme arcón como los que llevan los barcos de largo recorrido.\n\nAñade ficha Búsqueda\nRetira Exploración
+EventCuinaAdRebost.button1,Continuar
+TokenComedorTaula.text,La mesa està servida para varios comensales. Pero hace tiempo porque los platos y cubiertos tienen una fina capa de polvo. 
+EventCuinaArconNODaga.button1,Continuar
+EventCuinaArconTENGOlaDaga.text,Sacas la Daga y ves que la ornamentación del mango tiene un triangulo con tres piedras como el arcón.\nCon la punta del cuchillo empujas el triangulo con fuerza\nSuena un chasquido y se abre la tapa\nEncuentras el Objeto {c:QItemObjetoAleatorio}\n Pero la Daga queda atrapada\nTiras fuerte y no se mueve\nPero al girarla...
+EventCuinaArconSuperat.text,Te concentras en los dibujos e intentas encontrar relaciones\nEscuchas tambores lejanos y olor de mar\nTienes una visión de una especie de ritual de sanación donde una tribu ancestral con su sacerdotisa se mueven y cantan para ayudar a algo o alguien tendido en el suelo.\n De pronto el cuerpo despierta y sus ojos extraños te miran, y hacen dar un salto\nesto te ayuda a descubrir entre todos los adornos un pequeño triangulo con unos diminutas piedras en cada vertice.\n El triangulo sobresale ligeramente de la pieza metálica\n
+EventEsquinaAdRoom2.text,Aqui termina el pasillo. En una puerta\nCambia Vista por ficha de Exploración
+EventEsquinaAdRoom2.button1,Continuar
+EventRoom2Expl.text,Pequeña habitación. Pobre respecto al resto de la casa\nAñade el módulo {c:TileRoom2}\nLa cama esta desecha, y hay desorden y cosas tiradas por el suelo \nPon ficha de Búsqueda en el colchón\nAl fondo hay una puerta. Pon ficha de Exploración\n\nPuedes moverte un paso dentro\n\nRetira ficha Exploración
+EventRoom2Expl.button1,Continuar
+TokenRoom2ExplArmari.text,Una puerta sencilla. Parece un armario
+TokenRoom2ExplArmari.button1,Continuar  {action}
+EventRoom2Armario.text,La puerta esta cerrada y atrancada alguien ha puesto interés en que no se abra\nHaz una tirada de ({strength},3)\nSi tienes el objeto {c:QItemPalanca} o algun arma adecuada tira 2 dados más
+EventRoom2Armario.button1,Superas la tirada
+TokenPasilloTauleta.button1,Examinar  {action}
+EventPasilloTauleta.text,Abres una puertecilla y encuentras  el objeto {c:QItemLuz}
+TokenEsquinaExplBany.text,Es la puerta del Baño
+TokenEsquinaExplBany.button1,Continuar  {action}
+EventBanyoAdObs.button1,Continuar
+TokenWCBanyera.text,La banyera tiene manchas
+TokenWCBanyera.button1,Observar  {action}
+TokenWCCajonera.text,Una modesta cajonera con utiles de aseo 
+TokenWCCajonera.button1,Continuar
+EventWCCajonera.text,En uno de los cajones encuentras  {c:QItemEquipo}
+EventWCCajonera.button1,Continuar
+EventBanyoAdObs.text,Es un banyo pasado de moda \nNo demasiado limpio\nPon ficha de Búsqueda en la bañera y en la cajonera\n\nRetira Exploración
+EventWCVendas.button1,Continuar
+EventWCVendas.text,Ves  {c:qItemVendas} en el suelo\nPon el Objeto {c:qItemVendas} en el lugar indicado
+EventEsquinaEspejoFIN.text,Pon un ficha de Acción en el Almacen de la cocina\nRetira el ficha de Observacion del Espejo
+TokenDespatxLlibres.text,Una pared llea de historia. Muchos reconocimientos de universidades reputadas como la de Boston o la Miskatonik de Arkham, o del extraordinario Sefton Asylum, y recuerdos de viajes, enseres, adornos, armas, mapas, fotografias  \nEl Dr. ha viajado por todo el mundo 
+TokenDespatxLlibres.button1,Observar {action}
+EventDespatxPared.button1,Continuar
+UIDespatxParedTxt.uitext,Entre mapas exóticos, mascaras lanzas y flechas\nUna fotografia te llama la atención\n\nUna pequeña foto donde ves al \nDr. Blackwood en una escena familiar\n\n                                                      [Salir]
+UIDespatxPared.button1,Continuar
+EventDespatxParedOFF.text,Ganas una Pista {clue}\nRetira ficha Búsqueda
+EventDespatxParedOFF.button1,Continuar
+UIDespatxParedTxt.button1,Botón1
+fichasotanMurPasadis.text,Detras del mostrador hay un agujero\nLlega olor de sal y mar, y pescado podrido\nY el rugido lejano de las olas subterraneas gorgoteando 
+fichasotanMurPasadis.button1,Continuar
+fichasotanExplEscala.button1,Continuar
+EventMenjadorArmari.text,Hay multitud de material que te resulta raro para estar en un comedor. \nSobre todo Herramientas y cuerdas  \nEncuentras {c:QItemPalanca}\n\nRetira ficha Búsqueda
+EventMenjadorArmari.button1,Continuar
+fichasotanExplEscala.text,Si no duus Llum et fots de cap...
+TokenRoom2Llit.text,La cama esta desprovista de ropa. Ni sabanas ni almohada
+TokenRoom2Llit.button1,Examinar  {action}
+EventRoom2Llit.text,Parece que se ha quitado la ropa de cama de golpe\nEl colchon esta ligeramente torcido y ves un papel sobresaliendo entre las tablas del fondo\nLo sacas con cuidado\nEs una esquina de un papel manuscrito y manchado, alguien lo habia escondido aquí, falta la parte importante\n\nRetira ficha Búsqueda \nGanas 1 pista {clue}
+EventRoom2Llit.button1,Continuar
+UIRoom2CartaTxt.uitext,1920 diciembre 18,   Arkham\n\nDesde esta triste locura acudo a usted  \ncomo última esperanza para retomar la cordura y evitar una catastrofe inhumana\nHe servido a su tio durante años y he visto y participado en mas hechos \nde los que mi atormentada alma quisiera recordar.\nPero este último año Todo ha ido de mal en peor. \nEl Dr.Blackwood al que he respetado y seguido fielmente desde que tengo uso de razón,\n y al que mi padre ya siguió por mares y tierras sin nombre\ncuidando de el y de su (tachado) esposa, e (tachado) hijos\n por remotas que fueran las ignotas aldeas a las que se movian a estudiar \nlas innominables tradiciones y ritos y repugnantes reliquias que atesoraran con ellos hasta\nEl Dr. ya no es el mismo.\nempezó a hablar del Último Solsticio de invierno.\nEl Último decía. Y empezaron a llegar esos baules de ultramar. Ese olor por toda la casa. \nY su mirada cambió, estaba resuelto y empeñado en secretos que hasta hoy no quiso compartir \nconmigo, su mano derecha.\n- Lo he hecho por ti - me ha dicho\n- Para que no te condenes-\n- Los necesito otra vez conmigo, a mi lado. juntos de nuevo, toda la familia-\nY se lo que eso significa\nHe oido los tambores y la flauta rechinante\nY he oido sus voces, y chapoteos, mi padre me hablo de Ellos, los que ayudan a (ilegible, manchado de sangre)\nNo lo puedo permitir. Le ruego que venga cuanto antes y antes avi... (ilegible)\nCreo que sospecha de mí, debo ser (ilegible)\n(ilegible) interrumpir (ilegible)\n(ilegible)\n(ilegible)
+UIRoom2CartaTxt.button1,Botón1
+EventRoom2CartaFIN.text,Ganas la pista {c:QItemPruebaCarta}\nQue puedes consultar en tu inventario\nRetira ficha de Exploración
+EventRoom2CartaFIN.button1,Continuar
+EventRoom2Armario.button2,Fallas
+EventRoom2ArmarioAbierto.text,Has hecho mucho ruido \npero por fin se abre la puerta del armario\nElimina ficha de Exploración\nPon ficha de Oscuridad\nEs un espacio pequeño y oscuro pero distingues diferentes cajas y estanterias bien ordenadas y limpias.\nExcepto una caja grande mal cerrada que han intentado meter debajo de un estante\nPon ficha de Búsqueda
+EventRoom2ArmarioAbierto.button1,Continuar
+TokenRoom2ArmariCaja.text,De la caja sobresale una tela blanca\nNecesitas una Fuente de Luz para poder Examinarlo  
+TokenRoom2ArmariCaja.button1,Tengo luz {action}
+EventRoom2ArmariCaja.button1,Continuar
+EventRoom2CajaTroballa.text,... a causa de la impresión sueltas de golpe las sábanas y algo cae de entre sus pliegues\nUn papel con una esquina rota vuela hasta un rincon oscuro\nEs una carta dirigida a {c:EventInici}
+EventRoom2CajaTroballa.button1,Recoge la Carta
+TokenEsquinaExplRoom2.text,Una puerta cerrada
+TokenEsquinaExplRoom2.button1,Abrir  {action}
+EventRoom2ArmariCaja.text,\nVes cristales en el suelo, parece que alguien tambien ha roto la lampara del armario\nDentro de la caja encuentras un atado de sabanas blancas. \nAl deshacerlo descubres con horror que estan empapadas de sangre, mucha sangre con la almohada incluida.\nEl olor ferroso inunda el pequeño recinto\nTodos los investigadores en la {c:TileRoom2} \nrecibiis 2 cartas de horror boca arriba eliminadas por  {{will}}\nRetira ficha Exploración\n
+EventPasilloTauleta.button1,Continuar
+TokenPasilloTauleta.text,Un mostrador con objetos de uso diario\n
+EventComedorTaula.text,Encuentras un objeto útil  {c:QItemWhiskey}\nRetira ficha Búsqueda
+EventComedorTaula.button1,Continuar
+EventSorollSI.button1, ¡¡ Mas fuerte !!
+EventDagaTrobada.text,Tienes en tus manos una antigua pieza de orfebreria, delicadas piedras la adornan y a la vez una larga y afilada hoja forma su cuerpo. Al cogerla por el mango sientes escalofrios en los dedos que aumentan su cadencia por tu brazo, pica y chisporrotea energia pura hasta tu hombro, tu cuello y tu cabeza, los ojos se te nublan y lo ves todo rojo. ¡Sientes su Poder! \nHaz una tirada de {will}+1 \n 
+EventBiblioAdTokens.button1,Continuar
+EventBiblioAdTokens.text,Al fondo hay una silla con algo encima\nUn cuadro ominoso a la izquierda\nY estanterias por todas partes atestadas de libros y otros objetos curiosos\nPon fichas de Observación
+EventWCBanyera.text,Alguien ha limpiado la banyera con prisas. Queda una linea de residuos secos, convertidos en costra como la de una herida. Podria ser ¿sangre? ¿tanta?\n La idea te horroriza recibes un a carta de horror anulada por  {will}\nRecibes una pista {clue}
+EventWCBanyera.button1,Continuar
+TokenBiblioA.text,Las paredes estan abarrotadas de libros hasta el techo
+TokenBiblioA.button1,Buscar {action}
+EventBiblioA.text,Libros, pergaminos, rollos de mapas, objetos extraños, recipientes sellados. \nBuscas algo que te ayude en tu investigación\nHaz una tirada de {observation}\n
+EventBiblioA.button1,{success} {success} o más
+EventBiblioA.button2,{success}
+EventBiblioA.button3,Nada
+EventBiblioAFallo.text,Hay una miriada de libros y utensilios que no entiendes\nQue te hacen pensar en rituales y cosas secretas y cosas y raro y que me pasa y no se cosas cosas cosas.\nLa cabeza te da vueltas subido a la estanteria y te desplomas contra el suelo\nRecibes 2 cartas de Daño boca abajo anuladas por {agility} \n 
+EventBiblioAFallo.button1,Continuar
+EventBiblioAUno.text,Centenares de libros arcaicos que quieres leer ahora mismo\nTodos. Pergaminos que hablan de viajes al Pacífico a Africa i al continente Americano. Costumbres de tribus desconocidas por el mundo recopiladas y documentadas\nSospechas que el tio Blackwood tenia unos intereses muy peculiares y que habia profundizado en ellos.\nAprendiendo cosas que nadie deberia saber\nRecibes una pista  {clue}\nY te guardas el objeto {c:QItemCosa_o_Libro}\nRetira ficha de Busqueda
+EventBiblioAUno.button1,Continuar
+EventBiblioADosomas.text,Centenares de libros arcaicos que quieres leer ahora mismo\nTodos. Pergaminos que hablan de viajes al Pacífico a Africa i al continente Americano. Costumbres de tribus desconocidas por el mundo recopiladas y documentadas\nSospechas que el tio Blackwood tenia unos intereses muy peculiares y que habia profundizado en ellos.\nAprendiendo cosas que nadie deberia saber\nEncuentras unos documentos relativos al transporte de mercancias de mas allà del oceano. Y cartas entre "chamanes", "brujos" o supuestos hechiceros hablando sobre la "Segunda Oportunidad" \n\nRecibes dos pistas  {clue} {clue}\nY el objeto {c:QItemLlibre}\nRetira ficha de Busqueda
+EventBiblioADosomas.button1,Continuar
+TokenSotanExplEscala.text,Una vieja puerta mohosa en la penumbra
+TokenSotanExplEscala.button1,Explorar {action}
+EventSotanEscala.text,La puerta esta encajada, serà facil con la palanca pero con un empujon se debe abrir\nTira ({strength},1) +2 con Palanca 
+EventSotanEscala.button1,Superado con Palanca
+EventSotanEscalaSuperat.text,Con un suave gruñido se mueve la puerta\nSi nadie lleva Fuente de Luz  en tu espacio\nno ves el último escalón, aaah! \nRecibes tantas cartas de daño boca abajo como {success}\n\n\nRetira ficha Exploración\nPuedes avanzar un espacio
+EventSotanEscalaSuperat.button1,Continuar
+EventSotanEscala.button2,Superado
+EventSotanEscala.button3,Fallo
+EventSotanEscalaSuperatCop.button1,Continuar
+EventSoroll.text,CROCK !!!  \n(mucho ruido ecos en toda la casa)
+EventSotanAdSala.text,Se abre la puerta y ves el sotano de la casa. Es mucho mas antiguo que el resto del edificio, el suelo es de tierra.\nVes varios baules grandes amontonados\nY un trastero\nPon fichas de Observación\nY una puerta con ficha de Exploración\nA lado de la puerta una ficha de Obstrucción
+EventSotanAdSala.button1,Continuar
+TokenSotanBagul.button1,Examinar {action}
+EventSotanBagul.text,Parecen embalajes de algun tipo de transporte. S eguramente marítimo. \nEstan todos abiertos y vacios algunos tienen tierra en el fondo. \nEl olor es nauseabundo a hongos y muerte.\nSi te fijas puedes seguir un rastro hacia la otra puerta, pequeños surcos de arrastre en la tierra.\nObtienes una pista  {clue}\n\nRetira ficha Observación\n
+TokenSotanBagul.text,Grandes cajas, cofres y baules de transporte 
+EventSotanBagul.button1,Continuar
+TokenSotanExplDespensa.button1,Explorar  {action}
+EventSotanPorta.text,La puerta se abre en silencio\nesta muy oscuro, no ves nada\nPor lo que agudizas los sentidos:\nHuele a algo impensable, a sal, a yodo ¿?\nEscuchas un ruido rítmico, líquido, lejano\n
+EventSotanPorta.button1,Tengo fuente de luz 
+EventSotanPorta.button2,No veo nada
+EventSotanDespensa.text,Puedes iluminar el interior\nEs una despensa bien abastecida\nHay mucha comida. Sobre todo derivados del pescado, harinas y algas\nEn el interior aumenta el sonido ritmico y el olor familiar, pero desubicado\nVes algo en el suelo\n\nAñade ficha de Observación\nElimina ficha de Exploración
+EventSotanDespensa.button1,Continuar
+TokenSotanTrastos.button1,Inspeccionar  {action}
+EventSotanTrastos.text,Un montón de utensilios, aparejos de pesca, utiles marineros, herramientas oxidadas\nentre ellos encuentras {c:QItemTrasto}
+TokenSotanTrastos.text,Trastos amontonados
+EventSotanTrastos.button1,Continuar
+TokenSotanDespensaTerra.button1,Investigar  {action}
+EventSotanDespensaAdInteraccion.button1,Continuar
+EventSotanDespensaTerra.text,Acercas tu linterna al suelo para verlo mejor\nEs evidente que los surcos siguen desde la puerta hacia la pared derecha. Pero eso es imposible!!\nSe adentran por debajo de la pared\nRetira ficha Observación \n
+EventSotanDespensaTerra.button1,Continuar
+TokenSotanInteraccion.text,El pequeño estante ocupa la pared, repleto de recipientes\n\nSupera una tirada de {observation} \n+1 dado por cada investigador en el espacio
+EventSotanDespensaAdInteraccion.text,Pon una ficha de Interacción en el mueble de la pared
+TokenSotanInteraccion.button1,Explora
+EventPontAdPont.button1,Continuar
+EventSotanSecret.text,Un reflejo te atrae, al apartar uno de los frascos\n ves una pequeña placa en la pared\nEl pequeño rombo metálico adornado con simbolos y diminutas piedras preciosas, \ntiene una rendija con forma de Cruz Griega
+EventSotanSecret.button1,Tengo la Daga
+EventSotanSecret.button2,Esperar
+EventSotanSecretObert.text,Tomas la daga y la introduces con cuidado \nGiras la derecha\nGiras a la izquierda\nSNAP!!!\n
+EventSotanSecretObert.button1,Continuar
+EventSotanSecretPorta.text,La estanteria cede y se balacea hacia un lado\nAhora la pared tiene un abertura por la que puede pasar una persona \nRetira ficha Interacción\n\nSustituye la ficha de Pared por la Ficha de Pasadizo
+EventSotanSecretPorta.button1,Continuar
+TokenSotanDespensaTerra.text,Algo te llama la atención
+TokenPontVista.text,Un Investigador en un espacio de {c:TilePont} puede activar la vista\n
+TokenPont.text,El puente da miedo pero lo que imaginas mucho mas abajo aún mas. 
+TokenPont.button1,Inspeccionar
+EventPont.text,Ves huellas de barro en las tablas del puente. \nHuellas de botas, huellas de pies desnudos?\n y huellas de .. que eso??\nHaz una tirada de ({will},2)\nSi la superas entiendes lo que has visto y lo asimilas, si fallas recibes una carta de Horror \nRetira ficha de Búsqueda
+EventPont.button1,Continuar
+EventPontAdPont.text,Ahora recibes una oleada de olores salados y marinos\nUna oleada! escuchas las olas\n rompiendo en algun lugar profundo y oscuro\nAñade el módulo  {c:TilePont}\nUn puente mas viejo que las mismas rocas cruza un abismo que nos hace soñar \nque abajo, muy abajo, el mar rompe sus olas cruel y ponzoñoso\nUnas antorchas iluminan el paso \n\nEn el centro del puente pon una ficha de Búsqueda\nY una de Vistazo más adelante\n\nPuedes avanzar un espacio
+TokenPontVista.button1,Activar 
+EventPontVista.text,La caverna se adentra en un tunel sinuoso e inquietante\nColoca el módulo {c:TileCova}\nLas llamas pintan claroscuros y sombras retorciendose por las paredes chorreantes y negras como el vacio\nVes una puerta a tu izquierda y unas lineas en una pared\nAñade fichas de Exploración y Observación\nFicha de muro en el fondo
+EventPontVista.button1,Continuar
+TokenCovaDibuix.button1,Examinar {action}
+UICovaDibuixTxt.uitext,Las paredes mas profundas estan llenas de\n grabados y pinturas espeluznantes\n Con disintos estilos y de distintas épocas \nNarran abominables leyendas\n de muertes y Renacimientos\nRepresentan diferentes razas de hombres y mujeres\n celebrando danzas y ritos a veces compartidos\n con obscenas figuras humanoides surgidas del mar \n                y otras salen de unos extraños ojos\n                            [Seguir]
+EventCovaDibuix.button1,Continuar
+TokenCovaExplAltar.text,Una extraña puerta insertada en la roca
+TokenCovaDibuix.text,Ves unas formas en la piedra
+TokenCovaExplAltar.button1,Explorar  {action}
+EventSotanEscalaSuperatCop.text,Con un fuerte CRUJIDO (!!) se mueve la puerta\nSi nadie lleva Fuente de Luz  en tu espacio\nno ves el último escalón, aaah! \nRecibes tantas cartas de daño boca abajo como {success}\n\nRetira ficha Exploración\nPuedes avanzar un espacio
+EventSoroll.button1,Continuar
+TokenSotanExplDespensa.text,Una puerta vieja y destartalada
+UICovaDibuixTxt.button1,Continuar
+EventAltar.text,Resuena la afilada canción\n hermanada con una oscura letanía gemela\nEn el centro un altar de piedra negra sobre patas de piedra roja \nrodeadas de velas y fuego sacrílego\nSobre la mesa un cuerpo humano seco y momificado\nCon odiosos simbolos amarillos pintados en su craneo \nA sus pies un hombre ataviado como un sacerdote arcaico\n toca una pequeña flauta de hueso.\n Al otro lado, una corpulenta mujer con los brazos abiertos y los ojos desobitados\n repite palabras en una lengua que no existe hace eones\nvestida de algas, huesos, plumas exóticas \ny piedras preciosas que forman figuras geométricas que reconoces \n\nPon fichas de personaje en sus lugares\n\nRecibes 1 carta de horror boca abajo anulada por {lore}\nRetira ficha de Exploración
+EventCovaDibuixOFF.text,Recuerdas las huellas de barro de la casa y el puente\ny un frio atroz y venenoso hace temblar tu columna a la vez que tus oidos perciben una melodia de flauta aguda e hipnótica\n\nRecibes una carta de horror \nGanas una Pista {clue}\n\nRetira la ficha de Busqueda
+EventCovaDibuixOFF.button1,Continuar
+EventCovaExplAltar.text,Detrás de la puerta oyes sonidos y movimiento\nDistingues el silbar de una flauta o una ocarina prehistórica\n
+EventCovaExplAltar.button1,Abrir {action}
+EventCovaExplAltar.button2,Esperar
+EventCovaAdAltar.text,Lo que hay detrás de la puerta te hiela la sangre\nUna sala construida dentro de la montaña\nLas paredes excavadas en la piedra negra con relieves y pinturas enfermizos\n Seres humanos en diferentes grados de deformidad realizan actos atroces y prohibidos\nColoca el módulo {c:TileAltar}\n\nHay una puerta a tu izquierda\nPon ficha Exploración\nY al fondo de la derecha hay ... algo\n... o no,  como una ... ¿puerta?\n\nPon una ficha de Interacción
+EventCovaAdAltar.button1,Continuar
+EventAltar.button1,Continuar
+TokenAltarPortal.button1,Explorar  {action}
+EventAltarLosa.text,La milenaria negra losa tiene grabados nombres y fechas\nPuede descifrar algunas de mas de 300 años y mas alla\nAl empujarla cede facilmente con un crujido de piedra con piedra...
+EventAltarPortal.text,Es un agujero negro, como un ojo diabolico\nen continua transformacion. \nEn microparpadeos atisbas algo al otro lado \nY no es de este mundo\nY de alguna manera contesta a las palabras y al sonido de la flauta\n\nRecibes carta de Horror anulada por {lore}\nGanas 1 pista {clue}
+EventAltarPortal.button1,Entras en el Portal
+TokenAltarExpCripta.text,La puerta es una losa de piedra con caracteres grabados 
+TokenAltarExpCripta.button1,Explorar {action}
+TokenAltarPortal.text,Lo que podria haber sido una puerta se descompone y recompone ante tus ojos ciclicamente entre chisporroteos eléctricos y borboteos viscosos
+EventAltarLosa.button1,Continuar
+TokenAltarTio.text,El hombre sopla su enfermiza sintonia.\nNo se da cuenta que estas ahí\n\n¿ Eres  {c:EventInici}?
+TokenAltarTio.button1,Soy {c:EventInici}
+TokenAltarTio.button2,Soy otro investigador/a
+EventTioSoy.button1,- Vamos tio  !Soy yo¡ 
+EventTioOtro.text,Sus rasgos te resultan familiares\nEstá en pleno trance
+EventTioSoy.text,- Esa nariz aplanada y esos labios violaceos...?" \nAciertas a balbucear con emoción\nReconoces a tu tio Jeremiah\n-Tio Jeremiah, soy Yo  {c:EventInici
+EventTioOtro.button1,Le atacas
+EventTioSoy.button2,- Tio ¡Para esta locura!
+EventTioPara.text,Tu grito le ha sobresaltado\nTe mira sin parpadear\nCuando lo hace te das cuenta que es extraño su parpadeo\nY mas cosas. Sus ojos son vidriosos y su piel escamosa y gris\nSigue soplando su maligna flauta y sonrie con sonrisa de pez\nEscuchas una voz en tu cabeza "-¡Bienvenido a casa!"\n\nRecibe una carta de horror boca abajo aulada por {will}
+EventTioSoyYo.button1,Continuar
+EventTioSoyYo2.text,Lentamente, deja la pequeña flauta en el suelo\nSe pone en pie y posa sus manos en tus hombros\nSon frias y escamosas. Y sus ojos ... tienen dos parpados!\nEl aire se espesa\nTe susurra con otra voz: "- ¡ Te estabamos esperando !"\nIntenta agarrarte \nTe intentas zafar con ({agility},2)\nSi lo superas puedes moverte un espacio\n Si fallas quedas en Estado Retenido
+TokenTMP_Mostratot.button1,Botón1
+EventTioNobien.text,Lentamente sus ojos giran hacia ti\nTe atraviesa su triste mirada mientras sigue tocando\nUna lagrima aparece en su ojo derecho, luego otra\nSilencio\n"-He sido mala persona {c:EventInici}"\n"La familia, ¡¡es lo primero!!"
+EventTioNobien.button1,Continuar
+EventTioSoyYo2.button1,Continuar
+EventTioPara.button1,Continuar
+SpawnTio.button1,Continuar
+SpawnTio.text,Un bramido gutural sale de su graganta\n"Iä! Iä!! familia una fhtagn!"\nSustituye la ficha de Personaje del Tio\npor una miniatura de {c:SpawnTio}
+EventTioSoyYo.text,Te mira a los ojos por primera vez\nLa música se detiene\n"-¿Eres tu?", te dice con un hilo de voz\n"-Eres tu!". Te sonrie\n"-¡Que suerte tenemos! Has llegado a tiempo"\n
+EventTioOtro.button2,Hablas con el
+EventTioHablas.text,Te acercas a el con cautela
+EventTioHablas.button1,-Hola, perdone que le interrumpa
+EventTioHablas.button2,-Haga el favor de parar esto!
+EventTioPerdone.text,durante unos segundos todo sigue igual, sigue tocando y la mujer recitando sin parar\nEntonces, te mira, con los ojos velados,sin parpadear\nY deja de soplar\nCon una voz cavernosa como de otro mundo, te pregunta:\n-"Eres {c:EventInici} ?"\n-"Donde esta {c:EventInici} ?"\n-" Le necesito, le necesitamos"\nEscuchas en tu mente : "-¡¡Ahora!!"\n\nUn fuerza invisible te empuja fuera de la habitación\nAl espacio adyacente del módulo {c:TileCova}\nRecibes una carta de horror anulada por {will}\n
+EventTioPerdone.button1,Continuar
+EventTioHablas2.text,Te acercas a el \nY sientes como tu piel se eriza\nAlgo resuena en tu cabeza por encima de la enloquecida melodia\nEntre esos murmullos entiendes\n"- Solo quiero a mi familiar "\n"- Trae a {c:EventInici}, ¡AHORA!"\n\nSales despedido a traves de la puerta\nRecibes una carta de daño anuladas por {agility}
+EventTioHablas2.button1,Continuar
+SpawnMama.text,Sustituye la ficha de personaje\nPor la miniatura de {c:SpawnMama}
+SpawnMama.button1,Continuar
+TokenAltarMama.text,Es una mujer de una belleza indescriptible
+TokenAltarMama.button1,Hablas con ella {action}
+EventMama.text,Es de una belleza... dificil de describir\nY sigue cantando su letanía totalmente poseida \nIgnorando tu existencia
+EventMama.button1,¡Disculpe, por favor!
+EventMama.button2,¡Basta, detengase!
+EventMamaPlease.text,Es una mujer de una belleza ...indescriptible...\n ...telurica... paralizante... mientras no parpadeas. \nSi lo haces, durante una milesima de segundo crees atisbar una piel verdosa y cuarteada \nY unas manos palmeadas con afiladas garras\nPor un fraccion de segundo, ella mira hacia la "puerta" a sus espaldas e inmediatamente abre unos ojos enormes y vidriosos hacia ti...\nRecibes una carta de Horror anulada con {lore}\n
+EventMamaPlease.button1,Continuar
+TokenAltarMama.button2,Le atacas {action}
+EventMamaDefiende.text,Pronuncia palabras en una lengua oscura \nIntentas resistir con ({strength},2)\nSi lo haces puedes realizar una accion extra\n Si fallas quedas en Estado Aturdido
+EventMamaDefiende.button1,Continuar
+TokenAltarMesa.button1,Explorar  {action}
+EventAltarMesa.text,Es un cadaver momificado de alguna manera ancestral \nHa sido desenterrado y pintado con los arcanos simbolos amarillos\nde fertilidad y renacimiento\nEncuentras la prueba {c:QItemProvaMesa}
+TokenAltarMesa.text,Sobre la mesa de piedra un cadaver antiguo 
+EventAltarMesa.button1,Continuar
+EventAltarLosa2.text,Ves que algunas de las tumbas han sido profanadas\nUn olor fetido de muerte añeja lo inunda todo\n\nColoca ficha de Observacion\n\n...silencio! algo se mueve en lo mas profundo de la cripta...
+EventAltarLosa2.button1,¿Llevas Fuente Luz?
+EventCripta.text,Levantas el brazo con la luz para iluminar la lugubre estancia\nAlgo se aleja escondiendose en la negrura
+EventCripta.button1,Continuar
+EventAltarLosa2.button2,Sin Luz
+EventCriptaFosc.text,En la oscuridad unos ruidos de arrastre se acercan hacia donde estas
+EventCriptaFosc.button1,Continuar
+EventAltarLosa1.text,¡¡El espectaculo es dantesco!!\nRetira ficha de Exploracion\nColoca el modulo {c:TileCripta}\nDocenas de nichos y arcosolios en las paredes \nY varios sarcofagos de piedra tallada con geometrias oscilantes esculpidas en sus paredes y lapidas sepulcrales\n\nColoca Oscuridad en los espacios\n\nPuedes avanzar un espacio
+EventAltarLosa1.button1,Continuar
+TokenCriptaTomba.text,Las tumbas han sido profanadas \nY sus moradores ya no estan en ellas\nHaz una tirada de {observation}
+TokenCriptaTomba.button1,{success}{success}
+TokenCriptaTomba.button2,{success}
+TokenCriptaTomba.button3,Fallo
+EventCriptaTomba2.text,Ves manchas de pintura amarilla en la piedra\nY llegas a nuevas conclusiones\nRecibes el objeto único {c:QItemPruebaTomba}
+EventCriptaTomba2.button1,Continuar
+EventCriptaTesoro.text,En el fondo de la tumba encuentras {QItemMasEquipo}
+EventCriptaTesoro.button1,Continuar
+EventCriptaTomba1.text,Ves una manchas amarillas y relacionas hechos de pesadilla\nRecibes {c:QItemProbaTomba}
+EventCriptaTomba1.button1,Continuar
+EventCriptaTombaFallo.text,Remueves la làpida y un pedazo cae al suelo ¡¡estrepitosamente !!
+EventCriptaTombaFallo.button1,Continuar
+SpawnZombie.text,Coloca una Miniatura de Zombie
+SpawnZombie.button1,Continuar
+EventPortalEntra.text,Un chisporroteo te eriza la piel de todo el cuerpo\nEs una caricia y un mordisco a la vez, quema y refresca\nY una fuerza violenta te levanta del suelo y te absorve...\n\nEl invesigador deja caer sus objetos y desaparece 
+EventPortalEntra.button1,Continuar
+EventAltarPortal.button2,No entras
