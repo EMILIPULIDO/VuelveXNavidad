@@ -1,3 +1,5 @@
 # VuelveXNavidad
 Valkyrie MOM Scenario : Coming Home from Christmas (Spanish)
-[BETA Version]  Errores en la evaluación  y gestion de variables (??)
+Ver 2.0
+- Ultimos cambios final se perdia $end en mal lugar
+- Cambios varios. Ajustes spawns
