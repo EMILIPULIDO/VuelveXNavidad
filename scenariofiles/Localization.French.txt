@@ -1,0 +1,547 @@
+.,French
+quest.name,Retour pour Noël ver.3.0 (2025)
+quest.authors,"\nKrakalun RedVelvet\n\nCorrection, traduction et soutien spirituel : \nCristina Hernado et Aida Franch\n\nRemerciements à @Vidimus"
+quest.description,"<i>Retour pour Noël version 3.0 (2025)</i>\nScénario pour les Demeures de l'Épouvante 2ème Édition\n···\n\n<b><i>Noël approche, et cette année, l'oncle Jeremiah Blackwood veut que toute la famille se réunisse. Mais quelque chose vous laisse soupçonner que la surprise n'est pas celle des Rois Mages.\nUne aventure où l'enquête prime.\nPour les explorateurs de la vérité, avec le parfum des mondes du Maître HPL. </i></b> \n\n···\nL'auteur a décidé d'utiliser l'écriture inclusive pour que le maximum de personnes puissent se sentir incluses.\n\nLe plateau peut occuper un espace de 85x50cm.\n\nC'est un scénario fait avec amour, mais totalement amateur. Veuillez excuser les éventuelles erreurs. À la fin du jeu, vous avez la possibilité de laisser des commentaires.\nNous vous prions de nous faire part de vos avis et suggestions pour l'améliorer ensemble.\nMerci, j'espère que vous l'apprécierez autant que j'ai aimé le créer.\nLes sons sont nombreux, alors allumez vos haut-parleurs !\n\n<b><i>Iä Iä ygnaiih !!</i></b>\n\n"
+EventAdInvestigadors.text,"Vous êtes dans l'obscurité la plus totale, vous ne voyez absolument rien. Vous aiguisez vos sens.\nLa maison sent la mousse et le bois vermoulu... vous entendez de petits bruits à l'intérieur de la maison, très légers.\nAllumez-vous votre lampe ?"
+EventHallAdModulos.text,"La lumière vacille un instant et illumine la pièce.\n\nPlacez la tuile {c:TileHall}\n\nVous voyez deux portes et un couloir qui s'enfonce dans la maison.\nÀ gauche, un tableau imposant recouvre le mur.\n\nAjoutez les deux pions Mur et Mur (avec tableau) comme indiqué.\nUn pion Vue au fond du couloir.\n\nPlacez vos investigateurs près de la porte.\nChaque investigateur reçoit 2 indices {clue}"
+UIInici.button1,Continuer
+EventInici.text,|||Sir Jeremiah Blackwood est l'oncle de {rnd:hero}. \nAu début de l'année, il vous a invité avec beaucoup d'insistance \nà passer Noël chez lui.\n<i><b>"- La famille doit être unie en ces dates !"</b> </i>\nMais cela fait des semaines qu'il ne répond plus à vos lettres. \n{rnd:hero}, vous décidez de vous rendre avec votre équipe sur place pour voir ce qui a pu se passer. \nLe voyage est long et s'éloigne de la civilisation.\nSurplombant les falaises de Kingsport, la maison solitaire semble figée dans le siècle dernier, bien qu'assise sur des murs de pierre beaucoup plus anciens.\nElle est bordée par un jardin dont personne ne s'occupe plus depuis longtemps.\nVous frappez à la porte rouillée.\nSeul un écho sourd vous répond. \n{rnd:hero}, vous vous souvenez que vous gardez les Clés Anciennes de la famille.\n\nVous ouvrez la porte et entrez.\nVos pas hésitants résonnent dans le vide.|||
+EventInici.button1,Continuer
+EventAdInvestigadors.button1,Allumer
+EventHall_AdExplorers.button1,Continuer
+TokenHallExplRoom.text,"En collant l'oreille contre la porte, on n'entend absolument rien, rien du tout.\nVoulez-vous entrer {action} ?"
+EventAdRoom.text,"Retirez le pion Exploration.\nPlacez la tuile {c:TileRoom}.\nAjoutez un pion Mur à gauche.\n\nC'est une chambre confortable.\nBien qu'elle sente la poussière et l'humidité.\nEn face, vous voyez une table de nuit et au fond un lit défait et froid.\nPlacez des pions Recherche sur les deux.\n\nVous pouvez vous déplacer d'une case en entrant dans la pièce.\n"
+EventAdRoom.button1,Continuer
+TokenRoomLlit.button1,Passer le bras par l'interstice {action}
+EventRoomLlit.text,"Vous cherchez à tâtons dans l'étroit interstice entre le lit et le mur.\nC'est très resserré.\nÀ l'aveugle, vous touchez des surfaces en bois, des draps froissés et visqueux, la poussière collante accumulée sur le sol...\nVous poussez plus loin avec effort.\nEt vous palpez quelque chose de froid, de métallique, d'huileux.\nComme un tube.\nVous le saisissez et essayez de retirer votre bras coincé.\n\nVous recevez 1 carte Dégât annulée par {agility}"
+TokenRoomLlit.text,"Le lit n'est pas fait.\nLes draps sont très sales \net le tapis présente des restes de ce qui semble être de la boue séchée.\nIl vous semble que quelque chose a glissé sous l'oreiller en entraînant le tissu derrière lui.\nVoulez-vous l'explorer ? {action}"
+EventRoomLlitGetArma.text,"Vous avez trouvé l'objet {c:QItemArmaFoc}.\n\nRetirez le pion Recherche."
+TokenBiblioQuadre.button1,L'étudier {action} ?
+EventBiblioQuadreMirar.text,"La géométrie n'est pas euclidienne et la perspective se déforme quand vous l'observez de près.\n\nFaites un test de {observation}"
+EventBiblioQuadreMirar.button1,Continuer
+EventBiblioQuadreFerPuzzle.text,"Vous voyez clairement qu'il y a un mécanisme\nlié aux fragments en lesquels l'image se divise.\n\nRetournez le pion Observation pour qu'il devienne un pion Interaction.\nVous gagnez un {clue}"
+TokenBiblioQuadreSecret.button1,Ordonner les pièces {action} ?
+PuzzleBiblioQuadre.button1,Résoudre
+EventBiblioQuadreResolt.button1,Continuer
+EventBiblioQuadreDagaTrobada.button2,Échec
+EventBiblioQuadreFerPuzzle.button1,Continuer
+TokenBiblioQuadreSecret.text,"Vous trouvez un mécanisme \nqui permet de déplacer des parties du tableau en les faisant glisser.\n\nVoulez-vous essayer de les ordonner avec {lore} ?"
+TokenHallExploDespatx.button1,Entrer {action}
+EventHallAdDespatx.text,"Placez la tuile {c:TileDespatx}\n\nC'est une pièce très personnelle. Un espace chaleureux présidé par une table de travail.\nCela vous déconcerte qu'en ouvrant la porte, on n'entende plus aucun bruit.\nVous percevez une odeur très caractéristique que vous ne parvenez pas à identifier.\nUne belle porte au fond.\n\nDéplacez l'actuel pion Exploration vers cette porte.\n"
+TokenRoomMesita.text,"La petite table de nuit a un tiroir.\nVoulez-vous l'inspecter {action} ?"
+TokenRoomMesita.button1,Inspecter {action}
+EventRoomInvestigaTauleta.text,"En ouvrant le tiroir, vous voyez des vêtements d'homme démodés.\nDes sous-vêtements et rien d'intéressant à première vue.\nSi vous voulez fouiller à fond, testez votre {observation}"
+EventRoomInvestigaTauleta.button1,Chercher
+EventRoomInvestigaTauleta.button2,Échec
+EventRoomTauletaTrobat.text,"Vous remuez les vêtements avec précaution.\nVous passez vos mains sur les côtés du tiroir.\nAu fond...\nVous trouvez un petit ressort.\n"
+EventRoomTauletaTrobat.button1,Activer le ressort
+EventRoomMesitaFail.button1,Continuer
+SpawnFantasmaDespatx.text,|||Maintenant vous savez d'où venaient les bruits.\nDans le bureau, un homme est assis derrière la table. Son visage n'en est pas un.\nIl mute, passant d'un homme d'un certain âge, aux cheveux blancs et au regard digne, à une masse sanglante et visqueuse, avec peu d'échos humains.\nVous êtes attiré par la grande lettre \"H\" brodée \nsur la poche de sa blouse, élimée et trempée d'un rouge brillant.\n\nPlacez une figurine de {c:SpawnFantasmaDespatx} sur la table du bureau.|||
+SpawnFantasmaDespatx.button1,Continuer
+TokenHallExploDespatx.text,"En vous approchant de la porte, vous entendez un murmure de l'autre côté.\nCe sont des sons familiers, comme quelqu'un déplaçant des papiers, écrivant, fermant des tiroirs..."
+EventHallFosc.button1,Continuer
+EventHallFosc3.text,"Quelque chose se déplace rapidement autour de vous, laissant une trace pestilentielle terrible et une atmosphère électrique irrespirable.\nTOUS les investigateurs ressentent des picotements sur différentes parties du corps.\nVous recevez {var:Danyo} cartes Dégât face visible.\nEt l'investigateur {rnd:hero} est Étourdi.\n\nLe silence revient.\n\nUn investigateur ramasse l'Objet {c:QItemLinterna}."
+EventHallFosc2.text,"Vos corps tremblent de manière incontrôlée, tous vos objets tombent au sol.\nTous les investigateurs reçoivent {var:Horror} cartes Horreur face cachée."
+EventHallFosc2.button1,Continuer
+EventHallFosc3.button1,Continuer
+EventAdInvestigadors.button2,Rester dans le noir
+EventHallFosc.text,"Vous êtes plongés dans une obscurité impénétrable.\nVous tâtonnez avec vos mains, forcez vos yeux et tendez l'oreille.\nVous percevez de petits bruits partout mais ne voyez rien.\nLes bruits s'approchent de plus en plus vite, de plus en plus près.\nUne sensation d'humidité vous envahit la peau et une forte odeur, putride et vomitive, vous infecte."
+TokenHall_Vista.text,Un investigateur sur la tuile {c:TileHall} peut activer la vue du reste du couloir.
+TokenHall_Vista.button1,Vue
+EventHallVistaAd.text,"Devant vous s'ouvre un couloir qui tourne à droite.\n\nPlacez la tuile {c:TilePasilloComedor}.\nDéplacez ce pion Vue au nouveau bout du couloir.\nPlacez le pion Mur à droite.\nAjoutez un pion Exploration sur la porte.\nEt un pion Observation sur le petit meuble.\n"
+EventHallVistaAd.button1,Continuer
+EventHall_Llum.text,"La lumière dissipe les ombres épaisses et vous permet de reconnaître le hall d'entrée.\nOn devine des portes et des meubles. Le sol semble être en damier céramique.\nDans un coin, vous découvrez un boîtier d'interrupteurs.\n"
+EventHall_Llum.button1,Continuer
+TokenHallCaixa.text,Un boîtier de connexions avec un mécanisme très rustique.
+TokenHallCaixa.button1,Activer le mécanisme
+PuzzleHallCaixaLlum.button1,Activer
+TokenPasilloExplMenjador.text,Une vieille porte ayant beaucoup servi, dépeinte et usée.
+TokenPasilloExplMenjador.button1,Explorer {action}
+TokenPasilloVista.text,N'importe quel joueur depuis {c:TilePasilloComedor} peut activer la vue.
+TokenPasilloVista.button1,Voir
+EventFAIL.button1,Continuer
+UIFAIL.button1,Continuer
+UIFAILTEXT.uitext,"Un cri tonitruant vous frappe \nau visage et à la poitrine.\nVous ressentez le froid, le chaud et une grande douleur...\n\nVous ne savez pas ce qui s'est passé.\nVous vous réveillez sur un brancard de l'hôpital de Kingsport \nattachés par une camisole de force et avec des douleurs terribles.\nVous entendez encore ces cris fous...\n\nILS SORTENT DE VOS GORGES !!!!\nTOUS COMPLÈTEMENT FOUS.\n\nVOUS AVEZ ÉCHOUÉ !!\nEt quelque chose de terrible va arriver à ce Monde.\n\n{success}{success}{success}"
+TokenDespatxExploPorta.text,"Cette porte formidable est fermée.\nLa serrure est argentée."
+TokenDespatxExploPorta.button1,Ouvrir {action}
+EventDespatxPortaTeclau.text,Si vous êtes l'investigateur qui possède la Clé Argentée, vous pouvez ouvrir et entrer.
+EventDespatxPortaTeclau.button1,J'ai la Clé Argentée
+EventDespatxAdBiblioteca.button1,Continuer
+EventDespatxAdBiblioteca.text,"Retirez le pion Exploration.\nAjoutez la tuile {c:TileBiblioteca}.\n\nLa porte s'ouvre avec un grincement désagréable.\nLes murs sont couverts d'étagères remplies de livres.\nIl y a des parchemins, de vieux livres, des volumes reliés en peau.\nCela sent l'humidité et le papier pourri.\nEt par-dessus tout, une essence acide et piquante difficile à respirer.\n\nPlacez le pion Mur (avec tableau).\n"
+EventDespatxPortaSenseClau.button1,La forcer
+EventDespatxPortaForzar.button1,Réussi
+EventDespatxPortaSenseClau.text,"C'est une porte solide et bien sécurisée.\nVoulez-vous essayer de la forcer ?"
+EventDespatxPortaForzar.button2,Échec
+EventDespatxPortaForzaFail.text,"L'un des fragments est projeté, rebondit et vous frappe à la tête.\n\nVous recevez une carte Dégât face cachée."
+EventDespatxPortaForzaFail.button1,Continuer
+TokenBiblioCadira.text,"Sur la chaise se trouve un livre ouvert.\nVoulez-vous y jeter un œil {action} ?"
+TokenBiblioCadira.button1,Regarder le livre {action}
+EventBiblioCadiraUllada.text,"C'est un livre atavique.\nLes gardes sont en peau avec des incrustations métalliques comme s'il avait pu être fermé à clé.\nOn dirait un impossible livre de Sorts.\n\nVous obtenez le Sort {c:QItemHechizoAtaque}.\n\nRetirez le pion Recherche."
+EventBiblioCadiraUllada.button1,Continuer
+EventHallAdDespatx.button1,Continuer
+EventDespatxPortaTeclau.button2,Je veux forcer la porte
+EventPasilloAdMenjador.text,"Vous voyez une salle avec une grande table.\n\nPlacez la tuile {c:TileComedor_cocina}.\nDéplacez ce pion Explorer vers la porte battante à droite.\nPlacez un pion Mur (avec armoire) au fond.\n\nÀ côté, ajoutez un meuble comme obstruction.\n\nAjoutez des pions Observation \nsur la table et sur le meuble du fond.\n\nVous pouvez vous déplacer d'une case vers l'intérieur."
+EventPasilloAdMenjador.button1,Continuer
+TokenComedorTaula.button1,Examiner {action}
+EventCuinaArconNODaga.text,"Vous appuyez sur le triangle avec vos doigts mais il s'enfonce simplement.\nVous essayez avec un objet mais il n'est pas adapté."
+TokenComedorCalaix.text,"Commode simple, avec plusieurs portes et tiroirs.\n"
+TokenComedorCalaix.button1,Chercher {action}
+TokenComedorExplPortaCuina.button1,Explorer {action}
+EventCuinaExplo.text,"La cuisine est très délabrée.\nCela fait des jours que personne ne l'utilise.\nIl y a des assiettes et des ustensiles éparpillés.\nUn tiroir est ouvert.\nIl y a d'autres détritus sur le sol.\n\nAjoutez les deux pions Recherche.\nDéplacez ce pion Exploration vers la petite porte.\n\nVous pouvez vous déplacer d'une case vers l'intérieur."
+TokenComedorExplPortaCuina.text,"Porte battante très usée.\nRayures. Coups. Saleté.\nLe sol est également très usé avec des taches sèches."
+TokenHallExplRoom.button1,Entrer {action}
+EventBiblioQuadreDagaTrobada.text,"Vous avez entre les mains une ancienne pièce d'orfèvrerie.\nEn la saisissant par le manche, vous ressentez des frissons dans les doigts, qui remontent le long de votre bras.\nDe l'énergie pure vibre et crépite jusqu'à votre épaule, votre cou et votre tête.\nVos yeux s'embuent et vous voyez tout en rouge.\n<b>Vous sentez son Pouvoir ! \n {success}\n</b>\nElle a la capacité <b>Projeter</b> qui permet, lors de votre tour, de déplacer la dague dans les mains d'un autre investigateur à portée, sans dépenser d'action.\nEn l'utilisant comme arme, vous lancez <b>deux dés supplémentaires</b>.\n(vous pouvez la consulter dans votre inventaire d'objets)\nPouvoir !\nFaites un test de ({will}+1, 2)"
+EventFantasmaMort.button1,Continuer
+EventDagaPasa.text,"Vous ressentez le pouvoir et réalisez sa force, et que vous n'êtes pas capable de le canaliser pour le moment.\nVotre main se cramponne au manche et votre regard cherche où ou sur qui planter la lame.\nAvec votre autre main, vous vous aidez à la lâcher et à vous calmer. Petit à petit. Doucement. Vous posez la dague au sol.\nVotre corps se relâche, votre esprit s'éclaircit.\nVous comprenez, bien que vous ne vous souveniez pas.\nVous saisissez l'objet magique par la lame et réalisez qu'il a une forme particulière.\nDes rainures la parcourent de la pointe à la garde et...\n\nVous êtes interrompu par des bruits dans le Bureau...\n"
+EventDagaPasa.button1,Continuer
+EventDagaFallo.text,|||Votre corps se crispe et se tend.\nVotre regard cherche où ou sur qui se planter.\nL'objet acquiert une lueur verdâtre répugnante et vous avez besoin de trancher de la chair.\nVous ne pouvez pas la dominer, c'est elle qui vous domine.\nTant qu'elle n'aura pas versé de sang, vous ne pourrez pas sortir du sortilège.\n<color=red>Vous la laissez trancher...</color>\nUn investigateur à portée ou vous-même recevez deux cartes Dégât face cachée pour pouvoir continuer.\n\nUne fois que le sang a coulé, vous rangez la dague \net tout revient à la \"normale\".\n\nRecevez une carte Horreur face cachée.\n\nVous voyez que la lame a quelque chose d'étrange mais vous ne devinez pas quoi.\nVous êtes interrompu par des bruits de l'autre côté de la porte...\n|||
+EventDagaFallo.button1,Continuer
+EventRoomMesitaFail.text,"Vous cherchez mais vous ne parvenez pas à vous concentrer.\nQuelque chose vous perturbe. Vous êtes distrait.\nVous ne vous rappelez plus ce que vous faites ici...\nPourquoi ce meuble est-il différent du reste de la pièce ?"
+EventCuinaExplo.button1,Continuer
+TokenCuinaTerra.button1,Explorer {action}
+TokenCuinaCalaix.text,Un tiroir est ouvert.
+EventCuinaTerra.text,"Vous regardez mieux le sol.\nVous êtes surpris de voir que certaines taches sont de la boue séchée.\nVous voyez des empreintes de chaussures et de... pieds nus.\nEt une longue traînée qui va d'une porte à l'autre à côté d'une trace sombre.\nEt cette autre empreinte humide près de la porte intérieure ?\nOn ne la distingue pas bien et vous n'en reconnaissez pas l'origine.\n\nVous obtenez l'objet unique {c:QItemPruebaCuina}.\nVous gagnez un {clue}.\n\nRetirez le pion Observation."
+EventCuinaTerra.button1,Continuer
+TokenCuinaTerra.text,"Vous voyez des signes suspects au sol...\n"
+TokenCuinaCalaix.button1,Explorer {action}
+EventCuinaCalaix.text,"Le tiroir est en désordre mais vous voyez clairement qu'il manque des couverts.\nLes emplacements de plusieurs couteaux sont vides.\n\nVous trouvez {c:QItemArmaFilo}.\nVous gagnez un Indice {clue}.\n\nRetirez le pion Recherche."
+EventCuinaCalaix.button1,Continuer
+EventDespatxAdExpl.text,"Les murs sont couverts de souvenirs macabres. Armes ancestrales, gravures de paysages tropicaux, grandes cartes d'îles inconnues, masques terrifiants ou trophées de chasse.\nAjoutez un pion Recherche.\n\nSur la table se trouvent des papiers. Placez un pion Recherche.\n\nVous pouvez vous déplacer d'une case vers l'intérieur.\n"
+EventDespatxAdExpl.button1,Continuer
+TokenDespatxTaula.text,"Il y a une pile de papiers sur la table.\nUne sorte de manuel ancestral avec une typographie chimérique, et des papiers avec des notes manuscrites.\nL'encrier s'est renversé et tache les documents.\nC'était cette odeur que vous sentiez, de l'encre fraîche !\n\nPour tenter de sauver les écrits, testez votre {agility}."
+TokenDespatxTaula.button1,Continuer {action}
+EventDespatxTaulaPassat.text,"Vous bondissez comme un tigre et réussissez à ramasser certains éléments.\nVous épongez l'encre avec un papier.\nLa majorité des documents est perdue mais vous parvenez à sauver le dernier.\nUn petit journal griffonné.\n\nVous ramassez l'objet unique {c:QItemDiario}.\nQue vous pouvez consulter dans votre Inventaire.\n\nRetirez le pion Recherche."
+EventDespatxTaulaPassat.button1,Continuer
+UIDiarioText1.uitext,"L'écriture est confuse et la plupart des pages \nsont dans des langues et des graphies inconnues.\nVous le feuilletez et tentez d'en lire des fragments.\nMais quelque chose vous empêche de vous en souvenir, \ncela vous fatigue et vous brouille la vue.\nVous ne déchiffrez que quelques phrases :\n<color=grey>(## sont des taches ou des trous)</color>\n "
+UIDiarioText3.button1,Bouton1
+UIDiarioText1.button1,Suivre
+UIDiarioText2.uitext,"<i>... le plus important est la Famille##\n pour eux ##je fais ce# \n..Tous ensemble, réunis ###ouveau pour \n...parcouru les sept mers##.\n.. ##sagesse et connaissances arcanes pour pou#...\n...maudit Henry ! Je lui ai dit de ne rien ouvri##... </i>\n<i>...ils arrivent, le pire étant que cela n'affecte pas l...\n..me fournir de l'aide, eux si ##s... cas comme #rava ..."
+EventRoomLlitGetArma.button1,Continuer
+TokenCuinaExplRebost.button1,Ouvrir {action}
+EventDespatxPortaForzar.text,"Vous saisissez un objet sur la table et frappez violemment la serrure. ({strength},3).\n\nL'objet se brise avec un fracas et vous blesse.\n\nVous recevez une carte Dégât.\n"
+EventDespatxPortaSenseClau.button2,Le laisser, pour le moment
+EventDespatxPortaForzarFail2.text,"En se brisant, l'objet vous fait perdre l'équilibre et vous tombez tête la première contre la porte.\n\nVous recevez l'état Étourdi.\nEt vous lâchez un Objet aléatoire de vos mains."
+EventDespatxPortaForzarFail2.button1,Continuer
+EventDespatxPortaForzaFail3.text,"Un fragment de l'objet saute et tombe sous la table.\n\nEn allant le ramasser, vous trouvez l'objet commun {c:QItemPitillera}."
+EventDespatxPortaForzaFail3.button1,Continuer
+EventBiblioAdfichas.text,"Il y a des étagères jusqu'au plafond remplies de choses intéressantes, étranges ou terrifiantes.\nAjoutez les pions Recherche.\n"
+EventBiblioAdfichas.button1,Continuer
+TokenBiblioQuadre.text,"C'est une composition très très ancienne.\nOn y devine une sorte de diagramme.\nIl y a des images qui deviennent floues quand on les regarde.\nElles vous font penser que cela cache quelque chose.\n\nVoulez-vous l'étudier de plus près {action} ?"
+EventPasilloAdEsquina.text,"Le couloir continue en formant un angle.\n\nAjoutez la tuile {c:TileEsquina}.\nEt une porte au fond.\n\nDéplacez le pion Vue vers l'espace suivant."
+EventPasilloAdEsquina.button1,Continuer
+EventEsquinaAdObs.text,"Sur le mur de gauche, vous voyez un étrange meuble sombre.\nAu fond, un vieux tapis.\n\nPlacez les deux pions Recherche.\nAjoutez des pions exploration \nà la porte du fond et à celle de la salle de bain."
+EventEsquinaAdObs.button1,Continuer
+TokenEsquinaEspejo.text,"Un étrange meuble en vieux bois, avec un curieux miroir.\nVoulez-vous l'observer avec attention ?"
+TokenEsquinaEspejo.button1,L'enquêter {action}
+EventEsquinaEspejoLook.text,"Vous êtes surpris par la curieuse construction de ce meuble, sans moulures ni ornements.\nSimple, voire vulgaire, mais qui exerce sur vous l'effet séducteur de l'arcane.\nUn grand miroir repose dessus, il est encore plus vieux et bizarre. Il reflète les ombres et les déforme sur les murs comme si elles avaient une vie propre.\nEn touchant le bois, vous ressentez sa chaleur de soleil tropical séchant avec des parfums de cannelle et de clou de girofle. Son toucher chaud et doux est fascinant. Vous ouvrez les tiroirs et une nostalgie enfantine vous envahit. Vous trouvez quelque chose à l'intérieur mais vous ne voulez pas le sortir de ce récipient aimable et suggestif.\n\nFaites un test de {will}\n"
+EventEsquinaEspejoLook.button1,{success} {success} ou plus
+TokenEsquinaCatifa.text,"Un grand tapis recouvre le sol.\nVous voyez un pli suspect.\nVoulez-vous enquêter ?"
+TokenEsquinaCatifa.button1,Enquêter {action}
+EventEsquinaCatifa.text,"Ce tapis est d'une beauté sinistre.\nIl est parcouru de motifs ethniques. Ils semblent représenter des danses festives ou des banquets très schématiques et grossiers. Certains personnages sautent tous ensemble autour d'un feu.\nIls semblent rire et boire dans de grands bols dégoulinants. D'autres regardent avec de grands yeux fixes et noirs, qui remuent vos souvenirs archétypaux les plus instinctifs.\n\nVous recevez une carte Horreur face cachée, annulée par {will}\n\nPrès de la porte du fond, le tapis est froissé, aggloméré.\nComme si une substance sombre et visqueuse l'avait imprégné.\nEt que quelque chose de lourd avait été traîné, depuis la porte, par-dessus le tapis vers la salle de bain.\n\nVous recevez l'objet unique {c:QItemPruebaAlfombra}.\n\nRetirez le pion Recherche."
+EventEsquinaCatifa.button1,Continuer
+EventEsquinaEspejo3aciertos.button1,Continuer
+EventEsquinaEspejoForat.text,"Vous vous voyez dans les clairs-obscurs reflétés par le miroir.\nVous vous regardez dans les yeux et remarquez quelque chose d'étrange au niveau de votre bouche.\nVous n'avez pas de bouche ! Ce n'est pas votre bouche : c'est un trou !\n\nRetournez le pion Observation pour qu'il devienne un pion Interaction.\nC'est un petit orifice.\nVous prenez peur mais...\nCe n'est pas votre reflet, c'est dans le miroir lui-même.\nVous bougez la tête et effectivement, l'insignifiante fente demeure.\nVous vous approchez pour l'observer.\nElle a une forme curieuse. Comme une croix grecque.\nRemplacez le pion Exploration par un pion Interaction."
+EventEsquinaEspejoVisto.text,Le miroir continue de vous attirer comme le courant d'une rivière vers une cascade...
+EventEsquinaEspejoVisto.button1,Continuer
+EventEsquinaEspejoLook.button2,{success}
+EventEsquinaEspejoLook.button3,Échec
+EventEsquinaEspejo1Acierto.text,"La sensation est si douce que vous voulez rester là.\nPour toujours...\nMais vous savez que ce n'est pas réel. Vous vous rappelez où vous êtes.\nVous luttez pour récupérer vos mains et quelques échardes de bois s'enfoncent dans votre chair.\n\nVous recevez une carte Dégât, annulée par {agility}.\nVous retirez vos mains engourdies, et elles tiennent\nl'objet {c:QItemObjetoEspejo}."
+EventEsquinaEspejo3aciertos.text,"Vous fermez les yeux avec fureur.\nVotre volonté ne se laisse pas fléchir.\nVous saisissez fermement l'objet et le sortez du tiroir.\nDes silhouettes disparaissent dans les angles du miroir.\n\nVous avez en main {c:QItemObjetoEspejo}."
+EventEsquinaEspejoForat.button1,Continuer
+EventEsquinaEspejoAgujeroSICruz.text,"Cela ressemble beaucoup à la forme que vous avez reconnue sur la pointe de la dague lorsque la pièce dorée du coffre s'y est insérée.\nSi vous êtes l'investigateur qui porte la Dague avec l'Indicateur, vous pouvez continuer."
+EventEsquinaEspejoAgujeroNODaga.text,"Cet orifice est très suspect.\nIl a la forme d'une croix grecque.\nVous vous demandez s'il a une utilité.\nOu s'il nécessite un élément particulier pour être utilisé."
+EventEsquinaEspejoTengoDaga.text,"Vous sortez la dague, qui brille maintenant d'un éclat obscène.\nVous essayez de l'introduire dans la minuscule fissure.\nElle s'emboîte parfaitement.\nVous poussez et entendez un bruit métallique."
+EventEsquinaEspejoTengoDaga.button1,Continuer
+EventEsquinaEspejoTengoDagaClack.text,"Des sons métalliques, des engrenages qui entraînent le bois, des gonds rouillés.\nQuelque chose s'ouvre de l'autre côté du mur.\n- Qu'y a-t-il de l'autre côté ?, vous demandez-vous.\n"
+EventEsquinaEspejoTengoDagaClack.button1,Continuer
+EventEsquinaEspejoFIN.button1,Continuer
+TokenCuinaAlmacenAcccion.button1,Enquêter {action}
+EventAlmacenAdPasadizo.text,"Vous observez la nourriture tombée de l'étagère et voyez que quelque chose a bougé et l'a fait tomber. En vous appuyant sur le baril de farine, celui-ci roule et tout le mur coulisse doucement...\n\nRetirez le pion Action."
+EventAlmacenAdPasadizo.button1,Continuer
+EventAlmacenPasadizo.text,"Vous découvrez une trappe qui s'ouvre sur une zone sombre.\nPlacez un pion Passage à l'endroit indiqué.\nPlacez la tuile {c:TileSotan}.\nTrois pions <color=grey>obscurité</color> sur leurs emplacements.\nEt un pion Exploration sur la porte.\n\nVous pouvez avancer d'une case."
+EventAlmacenPasadizo.button1,Continuer
+EventEsquinaEspejoNoCruzSiDaga.text,"Vous pensez à la Dague mais la forme de la pointe ne coïncide pas exactement.\nAvez-vous la dague et voulez-vous essayer ?"
+EventEsquinaEspejoAgujeroNODaga.button1,Continuer
+TokenHallCuadro.text,Une peinture ancienne...
+TokenHallCuadro.button1,Examiner {action}
+UIHallQuadro.button1,Arrêter de regarder
+EventHallCuadroClick.text,"L'ancienne peinture représente un rituel terrifiant que votre raison ne parvient pas à définir.\nCependant, votre corps hésite entre continuer à la regarder ou la lacérer de vos ongles.\nVous recevez une carte Horreur face cachée, annulée par {will}.\n\nVous pouvez retirer le pion Recherche."
+TokenCuinaArca.text,Il y a un grand coffre de voyage fermé.
+TokenCuinaArca.button1,L'examiner {action}
+EventCuinaArcon.text,"C'est un coffre de métal et de bois noir.\nFermé et sans serrure.\nSur la façade en fer forgé se trouvent des gravures élaborées.\nDes dessins géométriques et des pierres précieuses qui forment des symboles de traditions perdues.\nTandis que vous les observez, vos yeux vous piquent et votre gorge s'assèche.\nEt un brouillard épais commence à envahir votre esprit.\nFaites un test de ({will}, 2)."
+EventCuinaArcon.button1,Réussite
+EventCuinaArcon.button2,Échec
+EventCuinaArcaFallo.text,|||Vos yeux se ferment et vous avez des visions de plages magnifiques.\nAutour de vous, des femmes et des hommes dansent autour d'une forme.\nUne prêtresse couverte de boue et de sang danse et hurle des sons obscènes et méconnaissables.\n\"Fnagh, fnagh, fnagh ftumeh !\"\nSoudain, le corps au sol bouge et vous regarde avec ses yeux secs, vous sombrez dans son regard...\n\nVous recevez une carte Horreur face visible.\nEt vous devenez Déconcerté.|||
+EventCuinaArcaFallo.button1,Continuer
+EventCuinaArconFallo2.text,"Vous étudiez les symboles du coffre. Avec plus de prudence.\nVous essayez de ne pas vous laisser emporter par l'illusion.\nVous sentez la fumée, vous entendez les tambours.\nVous sursautez et vous vous arrachez à son sortilège.\nVous recevez une carte Horreur face cachée."
+EventCuinaArconFallo2.button1,Continuer
+EventCuinaArconSuperat.button1,Continuer
+EventCuinaArconTeDaga.text,"La figure triangulaire ressemble beaucoup à celle de la Dague Rituelle que vous avez trouvée.\nÊtes-vous l'investigateur qui possède la dague ?"
+EventCuinaArconTeDaga.button1,J'ai la dague
+EventCuinaArconTeDaga.button2,Non
+EventCuinaArconTENGOlaDaga.button1,Continuer
+EventCuinaArconCruz.button1,Continuer
+EventEsquinaEspejoAgujeroSICruz.button1,J'ai la Dague et l'Indicateur
+EventCuinaArconCruz.text,"... un autre déclic métallique retentit.\nLa main qui tient la Dague vibre, et celle-ci sort de sa prison.\nMais quelque chose a changé.\nUne <color=yellow>pièce dorée</color> s'est incrustée dans la lame et lui donne un nouveau profil.\nEn la regardant depuis la pointe, elle a la forme d'une croix, une croix grecque.\n\nPlacez un pion d'Identification sur votre carte d'objet unique Dague Rituelle.\nMaintenant, l'indicateur et la Dague ne forment qu'un seul objet.\n{success}{success}\nEn l'utilisant comme arme de mêlée,\nen plus des <b>+2 dés</b> magiques, elle\nproduit le <b>double de dégâts</b> du résultat de l'attaque.\nElle possède la capacité <b>Projeter</b> qui permet, sans dépenser d'action, de Projeter la dague dans les mains d'un autre investigateur à portée.\n(vous pouvez la consulter dans votre inventaire d'objets).\n\nRetirez le pion Recherche.\n"
+EventEsquinaEspejoNoCruzSiDaga.button1,Essayer avec la Dague
+EventEsquinaEspejoNoCruzSiDaga.button2,Laisser pour le moment
+EventEsquinaEspejoPrueboconDaga.text,"Vous voyez que cela ne coïncide pas mais vous essayez quand même.\nLa pointe entre facilement mais ne va pas plus loin.\nVous pressez un peu et remuez en essayant de trouver des mécanismes ou des engrenages.\nVous notez un léger fourmillement dans la main..."
+EventEsquinaEspejoPrueboconDaga.button1,Continuer
+EventCuinaAdRebost.text,"Le pommeau de la porte est sale et collant.\nVous ne voulez pas savoir de quoi.\nEn ouvrant, vous voyez sur la gauche une étagère remplie de produits étonnamment bien rangés : paquets de nourriture, sacs de riz, barils.\nEn face, un énorme coffre comme ceux qu'emportent les navires au long cours.\n\nAjoutez un pion Recherche.\n\nRetirez le pion Exploration.\nVous pouvez vous déplacer d'une case vers l'intérieur."
+EventCuinaAdRebost.button1,Continuer
+TokenComedorTaula.text,La table est dressée pour plusieurs convives. Mais cela date d'il y a longtemps car les assiettes et les couverts sont couverts d'une couche de poussière.
+EventCuinaArconNODaga.button1,Continuer
+EventCuinaArconTENGOlaDaga.text,"Vous sortez la Dague et voyez la ressemblance entre l'ornementation du manche et les trois pierres du coffre.\nAvec la pointe du couteau, vous poussez le triangle avec force.\nUn déclic retentit et le couvercle s'ouvre.\n\nVous trouvez l'Objet {c:QItemArconObjetoEquipo}\n\nMais la Dague reste coincée.\nVous tirez fort et elle ne bouge pas.\n\nMais en la tournant...\n"
+EventCuinaArconSuperat.text,"Vous vous concentrez sur les dessins et essayez de trouver des relations.\nVous entendez des tambours lointains et une odeur de mer.\nVous avez une vision d'une sorte de rituel de guérison.\nUne tribu ancestrale avec sa prêtresse s'agitent et chantent pour aider une forme allongée sur le sol.\nSoudain, le corps s'éveille, et ses étranges yeux noirs vous regardent, traversent votre esprit en vous faisant frissonner.\n\nCela vous aide à découvrir, parmi tous les ornements, un petit triangle formé par de minuscules pierres brillantes à chaque sommet.\nLe triangle dépasse légèrement de la pièce métallique.\n"
+EventEsquinaAdRoom2.text,"Ici s'achève le couloir. Devant une porte.\nRemplacez la Vue par un pion Exploration."
+EventEsquinaAdRoom2.button1,Continuer
+EventRoom2Expl.text,"Ajoutez la tuile {c:TileRoom2}\n\nPetite chambre.\nPauvre par rapport au reste de la maison.\nLe lit est défait, il y a du désordre et des choses jetées au sol, signes de lutte.\nUne odeur métallique règne, que l'on ressent jusque dans les dents.\n\nPlacez un pion Recherche sur le matelas.\nAu fond se trouve une porte.\nDéplacez ce pion Exploration vers cette porte.\n\nVous pouvez vous déplacer d'un pas vers l'intérieur."
+EventRoom2Expl.button1,Continuer
+TokenRoom2ExplArmari.text,"Une porte simple mais robuste.\nOn dirait une armoire.\nElle possède un loquet sans clé.\n\nL'odeur métallique est plus forte ici."
+TokenRoom2ExplArmari.button1,Ouvrir l'armoire {action}
+EventRoom2Armario.text,"La porte est fermée et barricadée.\nQuelqu'un a tenu à ce qu'elle ne s'ouvre pas.\nFaites un test de ({strength}, 3).\nSi vous avez l'objet {c:QItemPalanca}, ou un objet adéquat, lancez 2 dés supplémentaires.\nUn autre investigateur dans la même case peut vous aider en ajoutant sa {strength} et en dépensant une de ses actions."
+EventRoom2Armario.button1,Vous attendez...
+TokenPasilloTauleta.button1,Examiner {action}
+EventPasilloTauleta.text,"Sur le meuble se trouve un calendrier avec les phases lunaires et astronomiques.\nL'actuel Solstice d'Hiver est souligné.\n\nVous ouvrez une petite porte et trouvez l'objet {c:QItemLuz}.\n\nRetirez le pion Recherche."
+TokenEsquinaExplBany.text,C'est la porte de la salle de bain.
+TokenEsquinaExplBany.button1,Ouvrir {action}
+EventBanyoAdObs.button1,Continuer
+TokenWCBanyera.text,La baignoire présente des taches.
+TokenWCBanyera.button1,Observer {action}
+EventBanyoAdObs.text,"C'est une salle de bain démodée.\nPas très propre, elle sent... vous ne savez pas quoi, mais ça sent mauvais.\n\nPlacez un pion Recherche dans la baignoire.\n\nRetirez le pion Exploration.\nVous pouvez vous déplacer d'une case vers l'intérieur."
+EventWCVendas.button1,Continuer
+EventWCVendas.text,"Vous voyez {c:QItemWCVendas} au sol.\nPlacez l'Objet {c:QItemWCVendas} à l'endroit indiqué."
+EventEsquinaEspejoFIN.text,"\nDéplacez ce pion Interaction du Miroir\nvers la réserve de la cuisine.\n"
+TokenDespatxLlibres.text,"Un mur chargé d'histoire. De nombreuses distinctions d'universités réputées comme Boston et Miskatonic, ou de l'extraordinaire Asile de Sefton.\nEt des souvenirs de voyages : artisanats préhistoriques, ustensiles tribaux, armes barbares, cartes et photographies.\nLe Dr Blackwood a voyagé dans le monde entier."
+TokenDespatxLlibres.button1,Observer {action}
+EventDespatxPared.button1,Continuer
+UIDespatxParedTxt.uitext,"Entre les bols, les cartes, les masques, les lances et les flèches :\nUne photographie attire votre attention.\n\nUne petite photo où vous voyez le\nDr Blackwood dans une scène de famille.\n"
+UIDespatxPared.button1,Continuer
+EventDespatxParedOFF.text,"Vous gagnez un Indice {clue}.\nRetirez le pion Recherche."
+EventDespatxParedOFF.button1,Continuer
+UIDespatxParedTxt.button1,Bouton1
+fichasotanMurPasadis.text,"Derrière le comptoir se trouve un trou.\nUne odeur de sel, de mer et de poisson pourri s'en dégage.\nAinsi que le grondement lointain des vagues souterraines gargouillant."
+fichasotanMurPasadis.button1,Continuer
+fichasotanExplEscala.button1,Continuer
+EventMenjadorArmari.text,"Il y a énormément de matériel qui vous semble étrange dans une salle à manger.\nSurtout des outils, des cordes et de la peinture.\nVous trouvez {c:QItemPalanca}.\n\nRetirez le pion Recherche."
+EventMenjadorArmari.button1,Continuer
+fichasotanExplEscala.text,Si vous n'avez pas de lumière, vous allez tomber tête la première...
+TokenRoom2Llit.text,"Le lit est dépourvu de draps. Ni couverture, ni oreiller.\n"
+TokenRoom2Llit.button1,Examiner {action}
+EventRoom2Llit.text,"Il semble que le linge de lit a été retiré brusquement.\nLe matelas est légèrement de travers et vous voyez un papier dépasser entre les planches du fond.\nVous le sortez avec précaution.\nC'est le coin d'un papier manuscrit et taché, quelqu'un l'avait caché ici, il manque la partie importante.\n\nRetirez le pion Recherche.\nVous gagnez 1 indice {clue}."
+EventRoom2Llit.button1,Continuer
+UIRoom2CartaTxt.uitext,"18 décembre 1920, Kingsport, Massachusetts\n\nDepuis cette triste folie, je m'adresse à vous.\nC'est le dernier espoir pour retrouver la raison et éviter une catastrophe inhumaine.\nJ'ai servi votre oncle pendant des années, et j'ai vu, et participé, à plus de faits grotesques\nque mon âme tourmentée ne voudrait s'en souvenir.\nMais cette dernière année, tout est allé de mal en pis.\nLe Dr Blackwood, que j'ai respecté et suivi fidèlement depuis que j'ai l'âge de raison.\nEt que mon père a déjà suivi par-delà les mers et les terres sans nom.\nPrenant soin de lui et de sa [raturé] épouse, et de ses [raturé] enfants.\nAussi reculés que fussent les villages où ils se traînaient pour étudier\nles traditions et rites blasphématoires. Aussi répugnantes que fussent les reliques qu'ils thésaurisaient avec eux jusqu'à...\nLe Docteur n'est plus le même.\nIl a commencé à parler du Dernier Solstice d'Hiver.\nLe Dernier, disait-il. Et ces malles d'outre-mer ont commencé à arriver. Cette odeur dans toute la maison.\nEt son regard a changé. Il était résolu, et acharné, sur des secrets qu'il ne voulait pas partager\njusqu'à aujourd'hui avec moi, son bras droit.\n<i>- Je l'ai fait pour toi, m'a-t-il dit.\n- Pour que tu ne sois pas damné.\n- J'ai besoin d'eux à nouveau avec moi, à mes côtés.\n- Ensemble à nouveau, toute la famille.</i>\nEt je sais ce que cela signifie.\nJ'ai entendu les tambours, et la flûte grinçante.\nEt j'ai entendu leurs voix, et les clapotis, mon père m'avait parlé d'Eux, ceux qui aident à <color=red>(illisible, taché de sang)</color>\nJe ne peux pas le permettre. Je vous prie de venir au plus vite et avant de prév... <color=red>(illisible)</color>\nJe crois qu'il me soupçonne, je dois être... <color=red>(sang)</color>\n<color=red>(illisible)</color> interrompre... <color=red>(illisible)</color>\nNe faites pas de bruit !! C'est m... <color=red>(sang)</color>\n\n\n                             <size=50>H</size>enry C<color=red>arter</color>"
+UIRoom2CartaTxt.button1,Bouton1
+EventRoom2CartaFIN.text,"\nVous recevez l'objet unique {c:QItemPruebaCarta}.\nQue vous pouvez consulter dans votre inventaire.\n"
+EventRoom2CartaFIN.button1,Continuer
+EventRoom2Armario.button2,Réussite
+EventRoom2ArmarioAbierto.text,"Vous avez fait beaucoup de bruit et cela vous effraie un peu.\nMais enfin la porte de l'armoire s'ouvre.\n\nRetirez le pion Exploration.\nPlacez un pion <color=grey>Obscurité</color> à l'intérieur.\n\nC'est un espace petit et sombre mais vous distinguez différentes boîtes et étagères bien rangées et propres.\nÀ l'exception d'une boîte en carton, grande, mal fermée, qu'on a essayé de glisser sous une étagère à la hâte.\n\nPlacez un pion Recherche.\nVous pouvez vous déplacer d'une case vers l'intérieur."
+EventRoom2ArmarioAbierto.button1,Continuer
+TokenRoom2ArmariCaja.text,"Un tissu blanc dépasse de la boîte.\nVous avez besoin d'une source de lumière pour pouvoir l'examiner."
+TokenRoom2ArmariCaja.button1,J'ai de la lumière {action}
+EventRoom2ArmariCaja.button1,Continuer
+EventRoom2CajaTroballa.text,"... sous le choc, vous lâchez brusquement les draps,\net quelque chose tombe d'entre les plis.\nUn papier vole jusque dans un coin sombre.\n\nDéplacez le pion Observation vers le coin."
+TokenRoom2Carta.text,"Derrière un meuble, vous voyez le papier.\nIl a un coin déchiré."
+TokenEsquinaExplRoom2.text,"Une porte fermée.\nSous la saleté, on distingue le contour d'une lettre H,\npeinte avec style et d'une main ferme."
+TokenEsquinaExplRoom2.button1,Ouvrir {action}
+EventRoom2ArmariCaja.text,"\nVous voyez des bris de verre au sol.\nIl semble que quelqu'un a aussi cassé la lampe de l'armoire.\nÀ l'intérieur de la boîte, vous trouvez un paquet de draps blancs.\nEn le défaisant, vous découvrez avec horreur qu'ils sont imbibés de sang, beaucoup de sang.\nEt l'oreiller, dégoulinant de sang.\nUn tsunami d'odeur ferreuse inonde la petite pièce.\n\nTous les investigateurs sur la tuile {c:TileRoom2}\nreçoivent 2 cartes Horreur, annulées par {will}."
+EventPasilloTauleta.button1,Continuer
+TokenPasilloTauleta.text,"Un comptoir avec des objets d'usage quotidien.\n"
+EventComedorTaula.text,"Vous trouvez un objet utile {c:QItemWhiskey}.\nRetirez le pion Recherche."
+EventComedorTaula.button1,Continuer
+EventRoom2ArmarioAbrirNO.text,"CRAAAAAC !!!\n(Beaucoup de bruit, des échos dans toute la maison)"
+EventBiblioQuadreDagaTrobada.button1,Réussite
+EventBiblioAdTokens.button1,Continuer
+EventBiblioAdTokens.text,"Au fond se trouve une chaise avec quelque chose dessus.\nUne étagère spéciale sur la droite.\nUn tableau aux géométries étranges se détache sur la gauche.\n\nPlacez des pions Observation.\nVous pouvez vous déplacer d'une case vers l'intérieur.\n"
+EventWCBanyera.text,"Quelqu'un a nettoyé la baignoire en hâte. Il reste une ligne de résidus secs, transformés en croûte comme celle d'une plaie. Pourrait-ce être du sang ? Autant de sang ?\nL'idée vous horrifie. Vous recevez une carte Horreur, annulée par {will}.\nVous gagnez un indice {clue}.\n\nRetirez le pion Recherche."
+EventWCBanyera.button1,Continuer
+TokenBiblioA_EstanteDcha.text,"Cette étagère semble avoir été beaucoup plus utilisée que les autres.\nIl y a des carnets de notes et des marque-pages dans plusieurs volumes."
+TokenBiblioA_EstanteDcha.button1,Chercher {action}
+EventBiblioA_0EstanteDcha.button3,Rien
+EventBiblioA_0EstanteDcha.text,"Livres, parchemins, carnets, rouleaux de cartes, objets étranges, récipients scellés.\nVous cherchez quelque chose qui pourrait aider votre enquête.\nFaites un test d' {observation}.\n"
+EventBiblioA_0EstanteDcha.button1,{success} {success} ou plus
+EventBiblioA_3Fallo.button1,Continuer
+EventBiblioA_3Fallo.text,"Il y a une myriade de livres et d'ustensiles que vous ne comprenez pas.\nIls vous font penser à des rituels, des secrets, des choses bizarres... Qu'est-ce qui m'arrive ? Je ne sais pas... des choses... des choses...\nLa tête vous tourne alors que vous êtes juché sur l'étagère\net vous vous effondrez au sol.\nVous recevez 2 cartes Dégât face cachée, annulées par {agility}.\n"
+EventBiblioA_2Dosomas.button1,Continuer
+EventBiblioA_1Uno.button1,Continuer
+EventBiblioA_0EstanteDcha.button2,{success}
+EventBiblioA_2Dosomas.text,|||Des centaines de livres archaïques que vous voulez lire,\nlà, maintenant... Tous.\nDes parchemins qui parlent de voyages dans le Pacifique, en Afrique et sur le continent américain.\nDes coutumes de tribus inconnues compilées et documentées.\n\nVous soupçonnez que l'oncle Blackwood avait des intérêts très particuliers, et qu'il les avait approfondis.\nApprenant des choses que personne ne devrait savoir.\nVous trouvez des documents relatifs au transport de marchandises depuis l'autre côté de l'océan.\nEt des lettres entre des \"chamans\", ou de supposés sorciers,\nparlant d'une \"Seconde Chance\".\n\nVous recevez deux indices {clue} {clue}.\nEt vous ramassez l'objet {c:QItemLlibre}.\n\nRetirez le pion Recherche.|||
+TokenSotanExplEscala.text,"Au bout de l'escalier escarpé.\nUne vieille porte moisie, dans la pénombre."
+TokenSotanExplEscala.button1,Ouvrir {action}
+EventSotanEscala.text,"La porte est coincée.\nIl sera facile de l'ouvrir avec un levier.\nMais avec une forte poussée, on devrait pouvoir l'ouvrir.\n\nLancez ({strength}, 2) +2 dés avec le Levier."
+EventSotanEscala.button1,Réussi avec le Levier
+EventSotanEscalaSuperat.text,"Avec un léger gémissement, la porte bouge.\nSi personne ne porte de Source de Lumière dans votre case,\nvous ne voyez pas la dernière marche, aaah !\nVous recevez deux cartes Dégât face cachée, annulées par {agility}.\n\nRetirez le pion Exploration.\nVous pouvez avancer d'une case en descendant la marche."
+EventSotanEscalaSuperat.button1,Continuer
+EventSotanEscala.button2,Réussite
+EventSotanEscala.button3,Échec
+EventSotanEscalaSuperatCop.button1,Continuer
+EventRoom2ArmarioAbrirNO.button1,Continuer
+EventSotanAdSala.text,"Au bout de l'escalier, vous voyez le sous-sol de la maison.\nIl est beaucoup plus ancien que le reste du bâtiment, le sol est en terre.\nIl y a de grandes malles empilées et des montagnes de matériel.\n\nAjoutez un mur face à l'escalier.\n\nPlacez les deux pions Observation.\nEt un pion Exploration sur la porte du coin.\nÀ côté de la porte, un pion Obstruction."
+EventSotanAdSala.button1,Continuer
+TokenSotanBagul.button1,Examiner {action}
+EventSotanBagul.text,"Cela semble être des emballages pour un transport quelconque, sûrement maritime.\nIls sont tous ouverts et vides, certains ont de la terre au fond.\nL'odeur est nauséabonde, un mélange de moisissure et de mort.\nSi vous regardez bien, vous pouvez suivre une trace vers l'autre porte, de petits sillons de traînage dans la terre.\nVous obtenez un indice {clue}.\n\nRetirez le pion Observation."
+TokenSotanBagul.text,Grandes caisses, coffres et malles de transport.
+EventSotanBagul.button1,Continuer
+TokenSotanExplDespensa.button1,Explorer {action}
+EventSotanPorta.text,"La porte s'ouvre en silence.\nIl fait très noir, vous ne voyez absolument rien.\nVous aiguisez donc vos sens :\nUne odeur impensable... du sel ? de l'iode ? de la mer ?\nVous entendez un bruit rythmique, liquide, lointain...\n"
+EventSotanPorta.button1,J'ai une source de lumière
+EventSotanPorta.button2,Je ne vois rien
+EventSotanDespensa.text,"Retirez le pion Exploration.\n\nVous pouvez éclairer l'intérieur.\nC'est un garde-manger bien approvisionné.\nIl y a beaucoup de nourriture. Surtout des dérivés de poisson, des farines et des algues.\nÀ l'intérieur, le son rythmique et l'odeur familière mais déplacée, étrange, augmentent.\nVous voyez quelque chose au sol.\n\nAjoutez un pion Observation.\nAjoutez un pion Mur sur la gauche.\n\nVous pouvez vous déplacer d'une case vers l'intérieur."
+EventSotanDespensa.button1,Continuer
+TokenSotanTrastos.button1,Inspecter {action}
+EventSotanTrastos.text,"Un tas d'ustensiles, des agrès de pêche, des outils de marin, des outils rouillés.\nParmi eux, vous trouvez {c:QItemHerramienta}.\n\nRetirez le pion Observation."
+TokenSotanTrastos.text,Un tas d'objets accumulés.
+EventSotanTrastos.button1,Continuer
+TokenSotanDespensaTerra.button1,Enquêter {action}
+EventSotanDespensaAdInteraccion.button1,Continuer
+EventSotanDespensaTerra.text,"Vous regardez attentivement le sol.\nIl est évident que les étranges sillons continuent depuis la porte vers le mur de droite.\nMais c'est impossible ! Ils s'enfoncent sous le mur.\n\nRetirez le pion Observation."
+EventSotanDespensaTerra.button1,Continuer
+TokenSotanInteraccion.text,La petite étagère occupe le mur, remplie de récipients.
+EventSotanDespensaAdInteraccion.text,Placez un pion Interaction sur le meuble du mur.
+TokenSotanInteraccion.button1,Explorer le meuble {action}
+EventPontAdPont.button1,Continuer
+EventSotanSecret.text,"Un reflet attire votre attention alors que vous écartez l'un des flacons.\nVous voyez une petite plaque métallique dissimulée dans le mur.\nVous apercevez un petit triangle métallique orné de symboles et de minuscules pierres précieuses.\nIl possède une fente en forme de Croix Grecque."
+EventSotanSecret.button1,J'ai la Dague
+EventSotanSecret.button2,Attendre
+EventSotanSecretObert.text,"Vous saisissez la dague et l'introduisez avec précaution.\nVous tournez vers la droite.\nVous tournez vers la gauche.\nSNAP !!!"
+EventSotanSecretObert.button1,Continuer
+EventSotanSecretPorta.text,"L'étagère cède et bascule sur le côté.\nLe mur présente désormais une ouverture par laquelle une personne peut passer.\n\nRetirez le pion Interaction.\nRemplacez le pion Mur par un pion Passage."
+EventSotanSecretPorta.button1,Continuer
+TokenSotanDespensaTerra.text,Quelque chose attire votre attention.
+TokenCovaExplPont.text,"Une porte en bois rongée par l'humidité et le salpêtre.\nEn vous approchant, vous entendez plus fort le rumeur liquide et l'odeur salée."
+TokenPont.text,Le pont est effrayant, mais ce que vous imaginez dans la noirceur sous vos pieds l'est encore plus.
+TokenPont.button1,Inspecter {action}
+EventPont.text,"Vous vous penchez prudemment et voyez des traces de boue sur les planches vacillantes du pont.\nDes empreintes de bottes, de pieds nus ?\nEt des traces de... qu'est-ce que c'est que ça ?\n\nFaites un test de ({will}, 2).\nSi vous réussissez, vous comprenez ce que vous avez vu et vous l'assimilez.\nVous gagnez un indice {clue}.\nSi vous échouez, vous recevez une carte Horreur face cachée.\n\nRetirez le pion Recherche."
+EventPont.button1,Continuer
+EventPontAdPont.text,"Vous recevez maintenant une vague d'odeurs salées et marines.\nUne déferlante ! Vous entendez les vagues\nse briser dans un endroit profond et sombre.\n\nAjoutez la tuile {c:TilePont}.\n\nUn pont de corde et de vieux bois traverse un abîme. Un abîme qui vous laisse imaginer\nqu'en bas, très bas, la mer brise ses vagues cruelles et empoisonnées.\nDes torches illuminent le passage et laissent entrevoir une porte étrange.\n\nDéplacez ce pion Exploration au fond, vers la nouvelle porte.\nAu centre du pont, placez un pion Recherche.\n\nVous pouvez avancer d'une case sur le pont."
+quest.synopsys,L'oncle Jeremiah nous a invités à faire la fête chez lui, mais personne ne sort pour nous accueillir...
+EventSotanSecretAdCova.text,"En vous accroupissant par l'ouverture, vous rampez jusqu'à une grotte mal éclairée aux odeurs nauséabondes.\nLa caverne s'enfonce dans un tunnel sinueux et inquiétant.\n\nPlacez la tuile {c:TileCova}.\n\nLes flammes des torches dessinent des clairs-obscurs et des ombres se tordant sur les parois ruisselantes et noires comme le vide. Elles dansent au rythme d'une rumeur de vagues lointaines, de plus en plus noires.\nVous voyez une porte sur votre gauche et une autre au fond.\nVous distinguez dans la roche des lignes et des couleurs étranges.\n\nAjoutez des pions Exploration aux deux portes.\nEt un pion Observation sur le mur du fond.\n\nVous pouvez vous aventurer à l'intérieur en avançant d'une case.\n"
+EventSotanSecretAdCova.button1,Continuer
+TokenCovaDibuix.button1,Examiner {action}
+UICovaDibuixTxt.uitext,"Les parois les plus profondes sont couvertes de\ngravures et de peintures effroyables.\nDe styles différents et de diverses époques.\nElles narrent d'abominables légendes\nde morts et de Renaissances.\nElles représentent différentes races d'hommes et de femmes\ncélébrant des danses et des rites parfois partagés\navec d'obscènes figures humanoïdes surgies de la mer.\nDes formes énormes et amorphes sortent d'étranges yeux.\n"
+EventCovaDibuix.button1,Continuer
+TokenPontExplAltar.button1,Explorer {action}
+TokenCovaDibuix.text,Vous voyez des formes et des couleurs dans la pierre.
+EventSotanEscalaSuperatCop.text,"Dans un violent CRAQUEMENT (!!), la porte bouge.\nSi personne ne porte de Source de Lumière dans votre case,\nvous ne voyez pas la dernière marche et, emporté par votre élan : aaah !\nVous recevez autant de cartes Dégât face cachée que de {success}\nlors du test précédent.\n\nRetirez le pion Exploration.\nAvancez d'une case."
+TokenSotanExplDespensa.text,Une porte vieille et délabrée.
+UICovaDibuixTxt.button1,Continuer
+EventAltar.text,"Une chanson stridente résonne,\nliée à une sombre litanie jumelle.\nAu centre, un autel de pierre noire sur des pieds de pierre rouge.\nTout autour, des bougies vénéneuses brûlent d'un feu sacrilège.\nSur la table, un corps humain sec et tordu,\navec d'odieux symboles jaunes peints sur le crâne.\n\nÀ ses pieds, un homme, vêtu comme un prêtre archaïque,\njoue d'une petite flûte en os.\nDe l'autre côté, une femme corpulente aux bras ouverts et aux yeux exorbités\nrépète des mots dans une langue disparue depuis des éons.\nVêtue d'algues, d'os et de plumes exotiques. Sur son manteau de peau ancestrale brillent des pierres précieuses dessinant des figures géométriques que vous reconnaissez.\n\nVous recevez 1 carte Horreur face cachée, annulée par {lore}.\n\nPlacez les deux pions de personnage à leurs emplacements.\nVous pouvez vous déplacer d'une case vers l'intérieur."
+EventCovaDibuixOFF.text,"Vous vous rappelez les traces de boue dans la maison et un froid atroce et venimeux fait trembler votre colonne vertébrale.\nEn même temps, vos oreilles perçoivent la rumeur d'une mélodie de flûte aiguë et hypnotique.\n\nVous recevez une carte Horreur face cachée.\nVous gagnez un indice {clue}.\n\nRetirez le pion Recherche."
+EventCovaDibuixOFF.button1,Continuer
+EventCovaExplAltar.text,"La porte, de bois sombre et de fer, est parsemée de pictogrammes.\nDes symboles et des fétiches en os, incrustés de pierres brillantes.\nDe l'autre côté, vous entendez des sons et du mouvement.\nVous distinguez le sifflement d'une sorte d'ocarina préhistorique."
+EventCovaExplAltar.button1,Ouvrir {action}
+EventCovaExplAltar.button2,Attendre
+EventCovaAdAltar.text,"\nCe qu'il y a derrière la porte vous glace le sang.\nUne salle creusée dans la pierre putrescente.\nAvec un autel entouré de bougies noires crépitantes.\nLes parois sont saturées de reliefs et de peintures de cauchemar.\nDes êtres humains à différents degrés de difformité commettent des actes atroces et interdits.\n\n\nRetirez le pion Exploration.\nPlacez la tuile {c:TileAltar}.\nAjoutez un pion Mur sur la droite.\nUn pion Observation sur l'autel.\n\nEt au fond à gauche, il y a... quelque chose\n... ou non, comme une... porte ? Un Oeil ?\n\nPlacez un pion Interaction.\n"
+EventCovaAdAltar.button1,Continuer
+EventAltar.button1,Continuer
+TokenAltarPortal.button1,Explorer {action}
+EventCovaLosa.text,"La dalle noire, sinistre et millénaire, est couverte d'écritures malsaines.\nCertaines gravures semblent être des noms et des dates.\nVous pouvez en déchiffrer certaines de plus de 300 ans.\nD'autres sont illisibles, plus vieilles que la grotte elle-même.\nEn poussant la porte, elle cède facilement avec un gémissement de pierre contre pierre...\n\nRetirez le pion Exploration."
+EventAltarPortal.text,"C'est un trou noir, comme un œil diabolique,\nen transformation continue.\nDans des micro-clignotements, vous apercevez quelque chose de l'autre côté.\nEt ce n'est pas de ce monde.\nEt d'une certaine manière, cela répond aux mots et aux sons de la salle noire de l'autel."
+EventAltarPortal.button1,Entrer dans le Portail
+TokenCovaExpCripta.button1,Explorer {action}
+EventCovaLosa2.text,"Vous voyez que certaines tombes ont été profanées.\nUne odeur fétide de mort ancienne inonde tout.\n\nPlacez un pion Observation sur le sarcophage.\nEt un pion Vue au fond.\n\n<b>... sssSilence !</b>\n... quelque chose bouge au plus profond de la crypte..."
+TokenAltarPortal.text,Ce qui aurait pu être une porte se décompose et se recompose cycliquement sous vos yeux, entre crépitements électriques et bouillonnements visqueux.
+EventCovaLosa1.text,"Le spectacle est dantesque !!\n\nPlacez la tuile {c:TileCripta}.\n\nVous devinez des douzaines de niches et d'arcosolia s'entassant sur les parois de cette crypte infecte.\nEt plusieurs sarcophages de pierre taillée, aux géométries oscillantes sculptées sur leurs parois et leurs dalles, assombrissent votre humeur.\nPlus loin, à l'intérieur, l'obscurité est si épaisse qu'elle semble mordre.\nPlacez de l' <color=grey>Obscurité</color> dans les deux cases.\n\nVous pouvez avancer d'un pas vers l'intérieur."
+TokenAltarTio.text,"L'homme souffle son air malsain.\nIl semble halluciné. Il ne se rend pas compte que vous êtes là."
+TokenAltarTio.button1,{action} Lui parler
+TokenAltarTio.button2,{action} L'attaquer
+EventTioSoy.button1,- Allez Oncle Jeremiah, c'est moi !
+EventTioOtro.text,"Ses traits vous semblent familiers.\nIl est en pleine transe."
+EventTioSoy.text,"- Ce nez écrasé et ces lèvres violacées... ?\nparvenez-vous à balbutier avec émotion.\nVous reconnaissez votre oncle Jeremiah.\n- Oncle Jeremiah ! C'est moi, {c:EventInici}."
+EventTioOtro.button1,Lui parler
+EventTioSoy.button2,- Oncle Jeremiah, arrêtez cette folie !
+EventTioPara.text,|||Vous vous jetez sur lui en criant :\nASSEZ !\nVotre cri l'a fait sursauter.\n(et il résonne contre les parois et dans les passages)\nIl vous regarde sans ciller.\nQuand il le fait, vous remarquez que son clignement est étrange.\nEt d'autres choses encore. Ses yeux sont vitreux et sa peau est écailleuse et grise.\nIl continue de souffler dans sa flûte maléfique et sourit d'un sourire de poisson.\nVous entendez une voix dans votre tête : \"- Bienvenue à la maison !\".\nAlors qu'une force invisible vous projette contre le mur au fond de la salle.\n(déplacez l'investigateur vers la case du fond).\n\nVous recevez une carte Horreur, annulée par {will}.\nEt une carte Dégât, annulée par {strength}.\nVous gagnez l'état Déconcerté.|||
+EventTioSoyYo.button1,{influence} Réussi
+EventTioSoyYo2.text,|||\nIl pose ses mains sur vos épaules.\nElles sont froides et... écailleuses ? Et ses yeux... ont deux paupières !\nL'air s'épaissit.\nIl vous murmure avec une autre voix : \"- Nous t'attendions !\"\nIl essaie de vous saisir.\n\nVous recevez une carte Horreur face cachée, annulée par {will}.\n\nVous tentez de vous dégager avec ({agility}+1, 2).\nSi vous réussissez, vous pouvez vous déplacer d'une case.\nSi vous échouez, vous gagnez l'état Entravé.|||
+EventTioSoyYoSuperado.button1,Continuer
+EventTioSoyYo2.button1,Continuer
+EventTioPara.button1,Continuer
+SpawnTio.button1,Continuer
+SpawnTio.text,|||Un rugissement guttural sort de sa gorge :\n\n- Le solstice d'hiver apporte Noël !\n- Noël apporte la famille !\n\n<i><b>-\"Iä ! Iä !! Familia fhtagn ! Ensemble Mère Hydra\"</b></i>.\n\nRemplacez le pion de personnage de l'Oncle Jeremiah\npar une figurine de {c:SpawnTio}.|||
+EventTioSoyYo.text,|||Il vous regarde dans les yeux pour la première fois.\nLa musique s'arrête.\n\"- C'est toi ?\", vous dit-il d'une voix ténue.\n\"- C'est toi !\". Il vous sourit.\n\"- Quelle chance nous avons ! Tu es arrivé à temps, c'est Noël !\"\n- Le Solstice d'Hiver !\".\n- Oui, lui dites-vous. - Tout va bien.\nVous essayez de le calmer.\nFaites un test de ({influence}, 1).|||
+EventTioOtro.button2,L'attaquer
+EventTioHablas.text,Vous vous approchez de lui avec prudence.
+EventTioHablas.button1,- Bonjour, pardonnez-moi de vous interrompre
+EventTioHablas.button2,- Faites-moi le plaisir d'arrêter ça !
+EventTioPerdone.text,|||Pendant quelques secondes, tout reste identique, il continue de jouer et la femme de réciter sans s'arrêter.\nPuis, il vous regarde, les yeux voilés, sans ciller.\nEt il s'arrête de jouer.\nD'une voix caverneuse comme venue d'un autre monde, il vous demande :\n\"- Es-tu {c:EventInici} ?\"\n\"- Où est {c:EventInici} ?\"\nEt vous entendez dans votre esprit : \"- Qu'il vienne, maintenant !!\"\n\nUne force invisible vous pousse hors de la pièce\nvers la case adjacente de la tuile {c:TilePont}.\nVous recevez une carte Horreur, annulée par {will}.|||
+EventTioPerdone.button1,Continuer
+EventTioHablas2.text,|||Vous vous approchez à nouveau de lui.\nEt vous sentez votre peau se hérisser.\nQuelque chose résonne dans votre tête par-dessus la mélodie enragée.\nParmi ces murmures, vous comprenez :\n\"- Je veux seulement mon parent\"\n\"- Amène {c:EventInici}, MAINTENANT !\"\n\nVous êtes projeté à travers la porte.\nVous recevez une carte Dégât, annulée par {agility}.|||
+EventTioHablas2.button1,Continuer
+SpawnMama.text,"Remplacez le pion de personnage\npar la figurine de {c:SpawnMama}."
+SpawnMama.button1,Continuer
+TokenAltarMama.text,C'est une femme d'une beauté indescriptible.
+TokenAltarMama.button1,Lui parler {action}
+EventMama.text,"Elle est d'une beauté... difficile à décrire.\nElle continue de chanter sa litanie, totalement possédée,\nignorant votre existence."
+EventMama.button1,Excusez-moi, s'il vous plaît !
+EventMama.button2,Assez, arrêtez !
+EventMamaPlease.text,|||C'est une femme d'une beauté... indescriptible...\n... tellurique... paralysante... tant que vous ne clignez pas des yeux.\nSi vous le faites, si vous clignez des yeux, pendant une milliseconde, vous croyez apercevoir une peau bleu-vert craquelée.\nEt des mains palmées aux griffes acérées.\nPendant une fraction de seconde, elle regarde vers la \"porte\" derrière elle et tourne immédiatement des yeux énormes et larmoyants vers vous...\nChaque investigateur dans la pièce reçoit une carte Horreur, annulée par {lore}.|||
+EventMamaPlease.button1,Continuer
+TokenAltarMama.button2,L'attaquer {action}
+EventMamaDefiende.text,"Elle prononce des mots dans une langue obscure.\nLes investigateurs sur la tuile {c:TileAltar} tentent de résister avec ({strength}, 2).\nCeux qui réussissent peuvent effectuer une action supplémentaire.\nS'ils échouent, ils gagnent l'état Étourdi."
+EventMamaDefiende.button1,Continuer
+TokenAltarMesa.button1,Explorer {action}
+EventAltarMesa.text,"C'est un cadavre momifié selon une méthode ancestrale.\nIl a été déterré et peint avec les symboles arcaniques jaunes de fertilité et de renaissance.\nQuelle abomination comptaient-ils faire avec lui ?\n\nVous trouvez la preuve {c:QItemPruebaMesa}.\nVous gagnez un indice {clue}.\n\nSupprimez le pion Recherche."
+TokenAltarMesa.text,Sur la table de pierre se trouve un ancien cadavre humain.
+EventAltarMesa.button1,Continuer
+EventCovaLosa2.button1,Avez-vous une source de lumière ?
+EventCovaLosa2.button2,Sans lumière
+EventCriptaLuz.button1,Continuer
+EventCriptaLuz.text,"Vous levez le bras avec la lumière pour éclairer la pièce lugubre.\nQuelque chose s'éloigne, se cachant dans la noirceur."
+EventCriptaZombieGo.button1,Continuer
+EventCovaLosa1.button1,Continuer
+EventCovaLosa.button1,Continuer
+TokenCriptaTomba.text,"Les tombes ont été profanées.\nEt leurs occupants n'y sont plus.\n\nFaites un test d'{observation}."
+TokenCriptaTomba.button1,{success}{success}
+TokenCriptaTomba.button2,{success}
+TokenCriptaTomba.button3,Échec
+EventCriptaTomba2.text,"Vous voyez des taches de peinture jaune sur la pierre et sur de petits os humains.\nEt vous arrivez à de nouvelles conclusions.\nVous recevez l'objet unique {c:QItemPruebaTomba}.\nEt vous recevez deux indices {clue}.\n\nRetirez le pion Recherche."
+EventCriptaTomba2.button1,Continuer
+EventCriptaTesoro.text,Au fond de la tombe, vous trouvez l'objet {c:QItemMasEquipo}.
+EventCriptaTesoro.button1,Continuer
+EventCriptaTomba1.text,"Vous voyez des taches de peinture jaune.\nEt des marques de griffures sur la pierre.\nEt vous arrivez à de nouvelles conclusions.\n\nVous recevez l'objet unique {c:QItemPruebaTomba}.\nEt un indice {clue}.\n\nRetirez le pion Recherche."
+EventCriptaTomba1.button1,Continuer
+EventCriptaTombaFallo.text,Vous remuez la dalle et un morceau tombe au sol. <b>FRACAS !!</b>
+EventCriptaTombaFallo.button1,Continuer
+SpawnZombieCripta.button1,Continuer
+EventPortalEntra.text,"Un crépitement vous hérisse les poils sur tout le corps.\nC'est une caresse et une morsure à la fois, ça brûle et ça rafraîchit.\nEt une force violente vous soulève du sol et vous absorbe...\n\nLa Sorcière ferme les paupières une seconde et grogne en regardant le portail du coin de l'œil, avec une grimace qui ressemble à un sourire de dégoût ou de plaisir.\n\nL'investigateur laisse tomber ses objets et disparaît.\nRetirez la figurine de l'investigateur du plateau.\nIl n'est pas considéré comme Éliminé, mais le joueur ne peut plus intervenir tant que sa figurine ne revient pas sur le plateau."
+EventPortalEntra.button1,Continuer
+EventAltarPortal.button2,Ne pas entrer
+EventBiblioQuadreResolt.text,"Un bruit d'engrenages retentit et le tableau s'écarte.\nUn trou dans le mur vous donne accès à un étrange objet :\nUne magnifique dague courbée et brillante.\nLa lame est très fine et tranchante.\nLa poignée est richement décorée de symboles et de figures géométriques.\nUn triangle se détache, avec des pierres brillantes aux trois sommets.\n\nVous recevez l'Objet {c:QItemDagaRitual}.\nRetirez le pion Interaction."
+EventFantasmaMort.text,"L'entité se dissout sous vos yeux dans un cri désespéré.\nSon visage triste reste gravé sur votre rétine.\nUne tristesse et une solitude infinies vous envahissent.\n\nVous pouvez retirer la figurine du Spectre."
+EventRoomLlit.button1,Continuer
+SpawnRuidoProfundoCuina.button1,Continuer
+SpawnRuidoProfundoCuina.text,"Yeux morts, peau écailleuse et l'odeur des tombes marines... un cauchemar qui vous traque, dégoulinant d'algues, d'eau et de vase.\n\nPlacez la figurine Hybride de Profond à l'emplacement indiqué dans la Cuisine."
+EventRuidoCocina.text,"Les bruits que vous avez faits semblent avoir un écho ailleurs dans la maison. Vous entendez des grattements et des frottements sur les murs et les sols jusqu'à ce que des pas se précisent :\nla cuisine !!"
+EventRuidoCocina.button1,Continuer
+EventRuidoDespensa.text,"Vos BRUITS ont réveillé les ombres.\nDes clapotis et des grognements résonnent en réponse."
+SpawnProfundoSotano.button1,Continuer
+SpawnProfundoDespensa.button1,Continuer
+SpawnProfundoSotano.text,"Une sorte d'animal anthropomorphe dégoulinant d'eau et de boue saute à quatre pattes sur le sol du sous-sol.\nIl éclabousse d'une eau d'un vert répulsif et flaire l'air à la recherche de l'origine de ces sons gênants.\nIl cherche à déchiqueter celui qui les produit.\n\nPlacez une figurine de Profond à l'endroit indiqué."
+EventProfundoAvanza.button1,Continuer
+EventEsquinaEspejoPrueboconDaga2.text,"Une forte décharge vous projette contre le mur.\n\nVous subissez 3 Dégâts, annulés par {strength}.\nVous gagnez l'état Étourdi."
+EventEsquinaEspejoPrueboconDaga2.button1,Continuer
+EventEsquinaEspejoAgujeroSICruz.button2,Annuler
+EventSotanAction_Primer.text,"Vous cherchez des traces de frottement ou des courants d'air.\n\nRéussissez un test d'{observation}.\n+1 dé pour chaque investigateur dans la case."
+EventSotanAction_Primer.button1,Continuer
+EventPont2.text,"En vous redressant, vous vous agrippez aux mains courantes en corde.\nEt l'un des tendeurs se détache, entraînant quelques roches qui tombent en faisant du BRUIT dans l'abîme noir."
+EventPont2.button1,Continuer
+EventPont3.text,"Vous entendez les pierres tomber, frappant les parois.\nChaque impact vous paralyse un peu plus.\nVous scrutez l'obscurité sous vos pieds en calculant la distance.\n\nTomp, PLONK, TUMBP, plumn, splashhh... ... ??? !!\n\n<b>- Qu'est-ce que c'était que ça ?</b>"
+EventPont3.button1,Continuer
+EventxObjetivoActivado.button1,Continuer
+TokenObjetivo.text,"Vous arrivez à la porte haletants, presque sans souffle.\nIl semble que vous puissiez vous échapper, cette fois.\nSi vous avez au moins {var:NumPruebas} preuves."
+TokenObjetivo.button1,Nous avons les preuves
+UIObjetivoCumplidoTxt.uitext,"Vous franchissez la porte en poussant.\nVous sortez au soleil. Il est chaud et agréable.\nPlus rien ne peut vous nuire.\n\n<b>*** OBJECTIF ATTEINT ***</b>\n\nVous avez survécu.\nVous avez des preuves de ce qui se passe.\nVos blessures guériront.\nVous trouverez de l'aide.\nQuelqu'un vous croira\net ils mettront fin à la menace.\nIls viendront préparés et...\nIls vous croiront, n'est-ce pas ?\nIls DOIVENT vous croire !! N'EST-CE PAS ??\n\n(Ils le feront forcément...)\n\nFIN ?"
+EventTioHablar.text,"Vous vous approchez lentement alors qu'il continue de jouer de sa flûte infernale. Obsédé, ne voyant rien.\n- Es-tu {c:EventInici} ?"
+EventTioHablar.button1,Je suis {c:EventInici}
+EventTioHablar.button2,Je suis un autre investigateur
+EventTioSoyYo.button2,Échec
+EventMamaMuerta.text,"Les yeux de la sorcière deviennent liquides comme du pétrole.\nPuis l'orifice de sa bouche.\nSon visage s'enfonce dans une noirceur qui n'existe pas.\nTout son corps convulse et se replie sur lui-même.\nVers l'intérieur.\nIl rétrécit, se brise, se liquéfie dans l'espace,\ndans un clignement rythmique et hypnotique.\n\nDans la salle de l'autel, le portail fluctue.\nEt les rythmes se synchronisent.\nJusqu'à ce qu'ils ne fassent plus qu'un.\nEt disparaissent dans un claquement.\n\nRetirez la figurine de la sorcière.\n\nL'investigateur peut retirer l'une de ses cartes Horreur face cachée."
+EventMamaMuerta.button1,Continuer
+EventMamaMuerta2.text,"Là où se trouvait la sorcière, il n'y a plus rien,\nseulement un vide crépitant.\nDans la salle de l'autel reste une fissure bouillonnante.\nDes doigts visqueux en émergent.\nUne main déchire la surface gélatineuse.\nEt un corps humain s'effondre.\n \nC'est l'investigateur qui était entré dans le portail.\nPlacez sa figurine dans la salle de l'Autel face au portail.\nLa fissure se referme dans un craquement qui déchire l'espace et le temps, comme si elle n'avait jamais existé.\n\nL'investigateur défausse toutes ses cartes Dégât et Horreur.\nEt gagne les états Fou et Blessé.\n"
+EventMamaMuerta2.button1,Continuer
+EventxELIMINADO.button1,Continuer
+EventxEliminadoCheck.text,"{success}\n\nLe tour dont vous disposiez pour atteindre l'Objectif,\naprès l'élimination de l'investigateur,\ns'est écoulé...\n\n{success}"
+EventxELIMINADO.text,"*** INVESTIGATEUR ÉLIMINÉ ***\nSelon les règles du jeu,\nlorsqu'un investigateur est Éliminé,\nl'Objectif doit être résolu au tour suivant.\n***********************"
+EventxEliminadoCheck.button1,Continuer
+SpawnZombieAltar.text,"Le cadavre sur l'Autel de pierre craque lui aussi.\nIl se brise et se tord.\nEt il se met debout, obscènement provocateur.\n\nS'il y a un pion Recherche, retirez-le.\nPlacez une figurine de Zombie sur l'Autel.\n"
+SpawnZombieAltar.button1,Continuer
+EventMama5Turnos_Zombie.button1,Continuer
+UIObjetivoCumplido_cont.button1,Bouton1
+EventPortalEngulle5.button1,Continuer
+SpawnShoggoth.text,"De l'autre côté, une forme commence à se matérialiser.\nDe plus en plus grande, énorme, comme un train.\nElle se presse contre les parois avec ses bulles protoplasmiques visqueuses et ses myriades d'yeux semblables à des pustules de lumière.\nPlacez un monstre {c:SpawnShoggoth}."
+EventPortalEngulle5.text,"Le Portail crépite à nouveau, comme lorsqu'il a englouti l'investigateur.\nIl semble s'ouvrir et recracher quelque chose de l'autre côté."
+SpawnShoggoth.button1,Continuer
+EventEsquinaEspejo1Acierto.button1,Continuer
+EventEsquinaEspejoFallo.text,"C'est confortable et ça sent bon, une chaleur douce caresse votre peau.\nVous vous assoupissez et rêvez de fêtes et de danses autour du feu.\nLa chaleur sur votre visage, sur vos joues, la chaleur dans vos yeux.\nÇA BRÛLE !! Vous vous réveillez en sursaut.\nVous lâchez ce que vous aviez en main et arrachez vos bras du piège du tiroir.\nVous subissez 1 carte Dégât et 1 Horreur, annulée par {lore}.\n"
+EventEsquinaEspejoFallo.button1,Continuer
+TokenEsquinaEspejoAccion.text,Le miroir et son trou en forme de croix grecque continuent de vous attirer, comme le courant d'un fleuve vers une cascade...
+TokenEsquinaEspejoAccion.button1,Enquêter {action}
+EventxObjetivoActivado.text,"*** OBJECTIF ***\nVous avez enfin ce que vous étiez venu chercher.\nVous savez maintenant ce qui est arrivé au Dr Blackwood.\nEt vous entrevoyez ce qui pourrait arriver.\nLes Investigateurs gagnent la partie si au moins {var:NumHeroes} investigateurs parviennent à sortir,\navec au moins {var:NumPruebas} preuves.\nActuellement, vous avez collecté {var:Pruebas} preuves.\n*********************\nPlacez un pion Interaction dans le {c:TileHall}.\n"
+Event_ActivaBruja.text,"Le chant sombre s'arrête soudainement.\n...\nLe silence vide vous serre le cœur.\nAvec effroi, vous voyez que la femme ne chante plus, et qu'elle vous cherche.\nElle vous traque du regard, par-delà vos âmes."
+Event_ActivaBruja.button1,Continuer
+EventDespatxPortaTeclau.button3,Annuler
+EventDagaLook.text,"Une dague courbée et brillante.\nLa lame est très fine.\nLa poignée est richement décorée de pierres précieuses formant des symboles et des figures géométriques.\nUn triangle aux cristaux brillants se détache sur ses trois sommets.\nParfois, elle émet une lueur verte obscène.\n\n{success}\nElle possède la capacité <b>Projeter</b> qui permet, sans dépenser d'action, de donner la dague à un autre investigateur à portée durant votre tour.\nLorsqu'elle est utilisée comme arme, lancez <b>deux dés supplémentaires</b>."
+EventDagaLook.button1,Continuer
+EventRoom2CartaRecoge.button1,Continuer
+EventRoom2CajaTroballa.button1,Continuer
+TokenRoom2Carta.button1,Examiner le Papier {action}
+EventRoom2CartaRecoge.text,"Vous glissez vos doigts entre les toiles d'araignée et ramassez le papier\npoisseux de sang.\n\nC'est une lettre adressée à {c:EventInici}.\nD'une calligraphie précipitée et tachée de caillots.\n\nRetirez le pion Observation."
+CustomMonster_EspectroHenry.monstername,Spectre
+EventSotanEscala.button4,Attendre...
+EventRoom2Armario.button3,Échec
+EventFINAL.button1,FIN
+TokenCovaExplPont.button1,Explorer {action}
+TokenDespatxExploPorta.button2,Forcer la porte {action}
+TokenPontExplAltar.text,"Une porte inquiétante encastrée dans la roche.\nDe l'autre côté... de la musique ?"
+EventCriptaFondoTest.text,"L'obscurité est si dense que personne ne veut y regarder.\nL'odeur de putréfaction séculaire vous asphyxie.\n\n(Laissez le pion Vue)"
+TokenCriptaFondo.button1,Continuer
+EventRuidoDespensa.button1,Continuer
+SpawnProfundoDespensa.text,"Une sorte d'animal anthropomorphe couvert de plantes marines gargouille ou bafouille tout en scrutant de ses yeux à trois paupières, cherchant l'origine des bruits gênants. Pour trouver celui qui les a faits et le faire taire à jamais.\n\nPlacez une figurine de Profond à l'endroit indiqué."
+EventProfundoAvanza.text,"Le monstre Profond\navance d'un pas vers l'Investigateur le plus proche."
+SpawnProfundoPont.button1,Continuer
+SpawnProfundoPont.text,"Le puits répercute l'écho de griffes grattant la pierre.\nDe plus en plus haut, jusqu'à racler les planches du pont.\nUn être nauséabond, entre le poisson et l'hominidé, bondit entre les cordes en dégoulinant d'une eau trouble et pestilentielle.\nLe monstre, alerté par les bruits, cherche la cause pour les faire cesser.\nIl flaire l'air : Votre air.\n\nPlacez un monstre Profond sur la tuile {c:TilePont}."
+EventPortalNoEntras.text,"Votre vue se brouille et vous avez envie de vous laisser aller.\nEntrer par la porte et tout oublier, en finir avec tout.\nBercé par le bourdonnement électrique...\nVous luttez contre votre obsession et décidez de reculer, et de vous éloigner suffisamment.\n\nVous recevez une carte Horreur face cachée,\net retournez une carte Horreur que vous aviez déjà.\n\nVous recevez un indice {clue}."
+EventPortalNoEntras.button1,Continuer
+UIObjetivoCumplidoTxt.button1,FIN ?
+EventFINAL.text,|||\n<i>\"La mort est miséricordieuse,\ncar d'elle il n'y a pas de retour ;\nmais pour celui qui revient\ndes chambres les plus profondes de la nuit,\négaré et conscient,\nil n'y a plus jamais de paix.\"</i>\n                                    <b>H.P. Lovecraft</b>\n|||
+UIFAILTEXT.button1,FIN
+EventRuidoSotano.text,"Vos <b>BRUITS</b> ont réveillé les ombres.\nDes clapotis et des grognements résonnent en réponse."
+EventRuidoSotano.button1,Continuer
+EventDagaLook2.text,"{success}{success}{success}\nAprès y avoir inséré la <color=yellow>pièce dorée</color>.\n(ce qui change le profil de la pointe en croix grecque)\nLes dégâts sont également doublés.\n\nElle peut être <b>Projetée</b>.\nOn lance <b>+2 dés</b> car elle est Enchantée.\nEt les dégâts finaux sont multipliés <b>par deux</b> grâce à la Pièce dorée."
+EventDagaLook2.button1,Continuer
+EventRuidoPont.button1,Continuer
+EventRuidoPont.text,"Vos <b>BRUITS</b> ont réveillé l'Abîme.\nDes clapotis et des rugissements stridents résonnent en réponse."
+UIHallCuadroTocame.uitext,Touche-moi
+EventHallCuadroClick.button1,Cesser de le regarder
+EventHallCuadroClick.button2,Continuer à regarder
+EventHall_AdExplorers.text,"\nPlacez des pions Exploration sur les deux portes.\nEt un pion Recherche sur le tableau.\n\nVotre enquête commence. En avant !!"
+EventTioOtro.button3,L'attaquer
+EventMamaMuerta3.text,Retirez le pion Interaction situé sur la tuile {c:TileAltar}.
+EventMamaMuerta3.button1,Continuer
+CustomMonster_Mama_Bruixa.monstername,Mama Y'hlaarsh (Sorcière)
+CustomMonster_Mama_Bruixa.info,-
+TokenCovaExpCripta.text,Une sinistre dalle de pierre noire ferme la grotte.
+EventCriptaFondoInsiste.button1,Bouton1
+EventCriptaFondoTest.button1,Continuer
+EventCriptaZombieGo.text,Dans l'obscurité, des bruits de traînements s'approchent de vous.
+EventCriptaZombie_Mort.button1,Continuer
+EventCriptaFondo_Usado.button1,Bouton1
+EventCriptaZombie_Mort.text,"La créature s'effondre au sol et tombe en poussière.\n\n<i><color=grey>Des murmures, des murmures dans les profondeurs</color></i>\n"
+SpawnZombieCripta.text,"De la noirceur,\nquelque chose qui fut une femme rampe vers vous.\nSon crâne est enfoncé et des lignes de peinture jaune coulent d'orbites vides.\n\nPlacez une figurine de Zombie."
+EventHallAdModulos.button1,Continuer
+UIDiarioText3.uitext,"<i>...j'ai prévenu Henry... l'arrêter#####...terrible faute\n...je l'ai gardée dans le tabl###géom###cret...\n..#en pièces séparées.. dague encha##tée#... est si puissante m###biblio##\nElle saura comment s'en occuper, ce journal# m'#ide\n...Solstice...conséquence#...profundis\n...imparable## ..trop ..Mama ....###amais ! ...\nIls vien##...la Porte...##n'est pas revenu #la fin####\n </i>"
+EventBiblioA_1Uno.text,"Des centaines de livres archaïques\nque vous voulez lire dès maintenant... Tous.\nDes parchemins parlant de voyages en Afrique et en Amérique du Sud.\nDes coutumes de tribus inconnues compilées et documentées.\nVous soupçonnez que l'oncle Blackwood avait des intérêts très particuliers et qu'il les avait approfondis.\nApprenant des choses que personne ne devrait peut-être savoir.\n\nVous recevez un indice {clue}.\nEt vous gardez l'objet {c:QItemCosa_o_Libro}.\n\nRetirez le pion Recherche."
+CustomMonster_EspectroHenry.info,-
+UIHallQuadro2_continua.button1,Bouton1
+UIDespatxParetContinua.button1,Bouton1
+EventCuinaTerraObserva.text,"{observation}Il semble y avoir des taches qui pourraient confirmer une théorie.\nRegardez bien. Faites un test d'{observation}."
+EventCuinaTerraObserva.button1,Continuer
+TokenCuinaExplRebost.text,La petite porte du garde-manger est également sale et rayée.
+UIRoom2CartaCont.button1,Bouton1
+TokenCuinaAlmacenAcccion.text,Plusieurs objets et ustensiles sont tombés au sol.
+UICovaDibuixCont.button1,Bouton1
+EventTioSoyYoSuperado.text,|||Son regard triste vous transperce.\nUne larme apparaît dans son œil droit, puis une autre.\nSilence.\n...\n- J'ai été une mauvaise personne, {c:EventInici}.\n- J'ai fait des choses... Henry... et d'autres... beaucoup.\n- Et Ils sont ici, à cause de moi...\nSoudain, son visage change, ses yeux s'écarquillent :\n\"LA FAMILLE, C'EST CE QUI COMPTE LE PLUS !!\"\nL'écho de son cri résonne comme un féroce présage.|||
+UIFail_cont.button1,Bouton1
+EventMama5Turnos_Zombie.text,"La {c:SpawnMama} ferme les yeux et la bouche.\nElle les serre comme si elle poussait quelque chose de l'intérieur.\nElle tend une main vers l'Autel, et la pierre craque..."
+EventRuidoPasillo.text,"Vos <b>BRUITS</b>\nont attiré l'attention.\nQuelque chose de répugnant se déplace dans le couloir."
+EventRuidoPasillo.button1,Continuer
+SpawnProfundo_Pasillo.text,"Un terrible être hybride apparaît dans le couloir, avec des yeux bulbeux et affamés sur un visage visqueux et fétide. Il cherche l'origine des bruits avec avidité.\n\nPlacez dans le {c:TilePasilloComedor} une figurine d'Hybride de Profond."
+SpawnProfundo_Pasillo.button1,Continuer
+EventRoom2Armario.button5,Échec
+Event_TESTer.button1,Bouton1
+EventRoom2Armario.button4,Réussite du test
+EventRoom2ArmarioAbrirSI.button1,Plus fort !!
+TokenEsquinaHuecoVista.button1,Continuer
+EventEsquinaHuecoPuerta.text,"\nUn encadrement de porte élevé laisse voir tout le coin du couloir.\nIl ne sera pas considéré comme une porte, mais seulement comme une limite d'espace.\n\nRetirez le pion Vue."
+EventEsquinaHuecoPuerta.button1,Continuer
+TokenEsquinaHuecoVista.text,Tout investigateur dans {c:TileEsquina} peut voir qu'il y a ici un passage sans porte.
+EventxObjetivoCumplidoCheckPortal.button1,Continuer
+EventxObjetivoCumplidoCheckPortal.text,"Avant de sortir par la porte principale,\naccablés par la perte d'un camarade,\nvous ressentez un bouillonnement désagréable au-dessus de vous.\nUne vibration secoue vos crânes.\nEn levant les yeux, vous voyez une sorte de déchirure dans la réalité, une fracture spatio-temporelle.\nEt quelque chose en surgit.\nDes mains visqueuses glissent du portail, suivies d'un corps qui tombe au sol, à vos pieds.\nPerplexes et effrayés, vous reconnaissez votre camarade perdu dans le portail.\nRécupérez la figurine de l'investigateur.\nLe joueur défausse toutes ses cartes Dégât et Horreur.\nEt reçoit les états Blessé et Fou.\n\nLe portail disparaît.\nVous vous regardez tous et courez vers la sortie.\n"
+EventEsquinaEspejoPrueboconDaga.button2,Laisser tomber, pour l'instant
+EventxObjetivoCumplidoHeroes2.button1,Nous sommes assez nombreux !!
+EventxObjetivoCumplidoHeroes2.button2,Pas encore !!
+EventxObjetivoCumplidoHeroes2.text,"Si vous êtes au moins {var:NumHeroes} investigateurs dans cet espace,\n\nVous pouvez quitter le Manoir du Dr Blackwood.\n"
+EventxObjetivoCumplidoHeroes.button1,Bouton1
+EventRoomTauletaTrobat2.text," clanKlack !\nUn tiroir latéral, jusqu'alors invisible, s'ouvre.\n\nVous trouvez l'objet unique {c:QItemLlavePlata}.\nVous gagnez un indice {clue}.\n\nSupprimez le pion Observation."
+EventRoomTauletaTrobat2.button1,Continuer
+UIDiarioText4Continua.button1,Bouton1
